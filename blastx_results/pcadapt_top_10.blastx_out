@@ -1,0 +1,1984 @@
+BLASTX 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: zebra finch proteome
+           16,489 sequences; 9,849,742 total letters
+
+
+
+Query= pcadapt SNP_21015 maker-chr3-snap-gene-981.3: CM027509.1 Setophaga
+coronata coronata isolate EE26A12 chromosome 3, whole genome shotgun
+sequence
+
+Length=44949
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+H0ZRB9 Lengsin, lens protein with glutamine synthetase domain OS=...  788        0.0  
+
+
+>H0ZRB9 Lengsin, lens protein with glutamine synthetase domain OS=Taeniopygia 
+guttata OX=59729 GN=LGSN PE=3 SV=2
+Length=803
+
+ Score = 788 bits (2035),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 390/399 (98%), Positives = 392/399 (98%), Gaps = 0/399 (0%)
+ Frame = +2
+
+Query  43751  EKAIHGIAMPRSYLELTLNPKDNELEYINATNFNCDIILNPDLSTFRILPWTEQTARVIC  43930
+              EKAIHGIAMPRSYLELTLNPKDNEL+YINATNFNCDIILNPDLSTFRILPWTEQTARVIC
+Sbjct  405    EKAIHGIAMPRSYLELTLNPKDNELDYINATNFNCDIILNPDLSTFRILPWTEQTARVIC  464
+
+Query  43931  DSFTVLGTPLMTSPRHIAKKQLSQLQDNGFSLHSAFTYEFCIYGITEVVNSKTISFPAAT  44110
+              DSFTVLG PLMTSPRHIAKKQLSQLQDNGFSLHSAFTYEFCIYGITEVVNSKTISFPAAT
+Sbjct  465    DSFTVLGAPLMTSPRHIAKKQLSQLQDNGFSLHSAFTYEFCIYGITEVVNSKTISFPAAT  524
+
+Query  44111  ILNNHDQTFIQELIEGMYYAGANIESFSSSSGPGQMEITFHPAFGLDAADSAFTFRTGLK  44290
+              ILNNHDQTFIQELIEGMYYAGANIESFSSSSGPGQMEITFHP FGLDAADSAFTFRTGLK
+Sbjct  525    ILNNHDQTFIQELIEGMYYAGANIESFSSSSGPGQMEITFHPVFGLDAADSAFTFRTGLK  584
+
+Query  44291  EVAKKYNYVASFFSESGFYNSGALSHSLWDLNGQKNLFSAGYGVEELSELGKNWLSGLLA  44470
+              EVAKKYNYVASFFSESGFYNSGALSHSLWDLNGQKNLFSAGYGVEELSELG NWLSGLLA
+Sbjct  585    EVAKKYNYVASFFSESGFYNSGALSHSLWDLNGQKNLFSAGYGVEELSELGINWLSGLLA  644
+
+Query  44471  HTAAISCLMAPTTSCRksyskyskeskeTVNAKWAYNDNSCAFNVKCHGGKGTYIENKLS  44650
+              HTAAISCLMAPTTSCRKSYSKYSKESKETVNAKWAYNDNSCAFNVKCHG KGTYIENKLS
+Sbjct  645    HTAAISCLMAPTTSCRKSYSKYSKESKETVNAKWAYNDNSCAFNVKCHGAKGTYIENKLS  704
+
+Query  44651  SAAANPYLVLAATIAAGLDGVKRGLRYDDMLEEENHTADLKHSSIPLKLEDALVALEKDT  44830
+              SAAANPYLVLAATIAAGLDGVKRGLRYDDMLEEENHT DLK SSIPLKLEDALVALEKD+
+Sbjct  705    SAAANPYLVLAATIAAGLDGVKRGLRYDDMLEEENHTGDLKPSSIPLKLEDALVALEKDS  764
+
+Query  44831  CIKEALGETFIRYFVAMKHYELETEEMDSERNKCLGYFI  44947
+              CIKEALGE FIRYFVAMKHYELETEEMDSERNKCLGYFI
+Sbjct  765    CIKEALGEAFIRYFVAMKHYELETEEMDSERNKCLGYFI  803
+
+
+ Score = 558 bits (1438),  Expect = 2e-173, Method: Compositional matrix adjust.
+ Identities = 296/345 (86%), Positives = 314/345 (91%), Gaps = 0/345 (0%)
+ Frame = +1
+
+Query  30703  MLFGCIFYCWLQNTSESDNDEVDGNNICGFRKKKGIKGPTKYVPCLENEKMELSRTSKIP  30882
+              MLFGCIFYCWLQNTSESD+DEVDGNNICGFRKKKGIKGPTKYVP LENEKMELS TS+IP
+Sbjct  1      MLFGCIFYCWLQNTSESDSDEVDGNNICGFRKKKGIKGPTKYVPPLENEKMELSHTSEIP  60
+
+Query  30883  DPCPLKGSTGCSELPSEQRLQSPTTFPAAQKDRgghdnsnsgsdgKEDRCGETRETQECA  31062
+              DPCPLKG+T CSEL SE  LQ+PTTFPA QKDRGGHDNS+SGS+GKE+RC ETRETQE A
+Sbjct  61     DPCPLKGTTACSELTSEHSLQNPTTFPAVQKDRGGHDNSSSGSNGKEERCRETRETQEYA  120
+
+Query  31063  DTGKRILGKMHEETDTAAQTKLPTNEQPVRGAEKGGCTEAAQREKHSEQAGGKPEERGGM  31242
+              DTGK+ILGK+HEETD AAQTKLP + QP RGAEKGGCTEA QREK SEQAGGKPEE+GGM
+Sbjct  121    DTGKKILGKIHEETDRAAQTKLPASVQPARGAEKGGCTEAVQREKDSEQAGGKPEEQGGM  180
+
+Query  31243  EENVVKFQMTKMGSLGSAPSTPGSRTGEAFKGAPGISKRSLQELKNLLSEGHLPSHGPNF  31422
+              EE VVKF +TKMGSLGSA S P SRTGE+FKGAP ISKRSLQELKNLLSEGHLPS+G NF
+Sbjct  181    EEKVVKFHVTKMGSLGSATSMPRSRTGESFKGAPAISKRSLQELKNLLSEGHLPSYGRNF  240
+
+Query  31423  CGKAGGTFAQKNLKPREKAADKQGQPFETFSPHFGEEKQKYLRFHKEGMGQQSKTVLVLS  31602
+              CGKA  TFAQKNLKP+EKAADKQG PFETFSPHFGEEKQKY  FHKEGMGQQSK +LVLS
+Sbjct  241    CGKASITFAQKNLKPQEKAADKQGWPFETFSPHFGEEKQKYCSFHKEGMGQQSKPILVLS  300
+
+Query  31603  SAGSDQQQPVGSDVDHLILGLpaaptpadstapELQFDSSPGLDG  31737
+              SAGSDQQQPVGSDVDHLILGLPA PTPA+STAPE+QFDSS GLD 
+Sbjct  301    SAGSDQQQPVGSDVDHLILGLPATPTPAESTAPEVQFDSSTGLDA  345
+
+
+ Score = 120 bits (302),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 57/64 (89%), Positives = 60/64 (94%), Gaps = 0/64 (0%)
+ Frame = +1
+
+Query  41944  SSLLAFNRDPDVNGLGNSTLLYLFSHLEFIKQQMARDNVQFVRFESIDLHGVSRSKNVPS  42123
+              + L AFNRD DVNGLGN TLLYLFSH+EFIKQQMARD+VQFVRFESIDLHGVSRSKNVPS
+Sbjct  341    TGLDAFNRDRDVNGLGNPTLLYLFSHIEFIKQQMARDSVQFVRFESIDLHGVSRSKNVPS  400
+
+Query  42124  RFFQ  42135
+              RFFQ
+Sbjct  401    RFFQ  404
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 114965073250
+
+
+Query= pcadapt SNP_40840 maker-chr6-snap-gene-196.1: CM027512.1 Setophaga
+coronata coronata isolate EE26A12 chromosome 6, whole genome shotgun
+sequence
+
+Length=10653
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+A0A674GTK9 Free fatty acid receptor 4 OS=Taeniopygia guttata OX=5...  238        4e-69
+H0ZEM3 Retinol binding protein 4 OS=Taeniopygia guttata OX=59729 ...  141        3e-37
+H0YPK5 Lipocln_cytosolic_FA-bd_dom domain-containing protein OS=T...  78.2       9e-16
+
+
+>A0A674GTK9 Free fatty acid receptor 4 OS=Taeniopygia guttata OX=59729 GN=FFAR4 
+PE=4 SV=1
+Length=354
+
+ Score = 238 bits (606),  Expect = 4e-69, Method: Compositional matrix adjust.
+ Identities = 125/136 (92%), Positives = 127/136 (93%), Gaps = 0/136 (0%)
+ Frame = -2
+
+Query  6770  QITKASRRSLNAGLAYLEHHQIRVSQQDYKLFRALFLLMISFFIMWTPIIVIIFLILVQN  6591
+             QITKASRRSLNAGLAY EHHQI VSQQDYKLFRALFLLM SFFIMWTPIIVIIFLIL+QN
+Sbjct  219   QITKASRRSLNAGLAYPEHHQIHVSQQDYKLFRALFLLMTSFFIMWTPIIVIIFLILIQN  278
+
+Query  6590  FKKDLNILPSVFFWIALFTFANSAVNPILYNVAYFRRKCQEIFLCFTGNPERHRAGTETT  6411
+             FKKDLNILPSVFFWIALFTFANS VNPILYNVA+FRRKCQEI LC TGNPERH  GTETT
+Sbjct  279   FKKDLNILPSVFFWIALFTFANSVVNPILYNVAHFRRKCQEILLCCTGNPERHGPGTETT  338
+
+Query  6410  ARRSNLEQPHLSFITR  6363
+             ARRSN EQPHLSFITR
+Sbjct  339   ARRSNHEQPHLSFITR  354
+
+
+ Score = 89.4 bits (220),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 42/44 (95%), Positives = 43/44 (98%), Gaps = 0/44 (0%)
+ Frame = -1
+
+Query  10545  DIHICTLDWPSTAGETVWDTTFAIVFFLIPGFIIVISYSKILQV  10414
+              DI ICTLDWPSTAGETVWDTTFAIVFFLIPGFIIVISYSKILQ+
+Sbjct  177    DIQICTLDWPSTAGETVWDTTFAIVFFLIPGFIIVISYSKILQI  220
+
+
+>H0ZEM3 Retinol binding protein 4 OS=Taeniopygia guttata OX=59729 GN=RBP4 
+PE=3 SV=2
+Length=226
+
+ Score = 141 bits (355),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 68/73 (93%), Positives = 69/73 (95%), Gaps = 1/73 (1%)
+ Frame = +3
+
+Query  2901  ALHYSCRQLNADGTCADSYSFVFSRDPKGLPPDALKIVRQRQIDLCLDRKYRVITHNGEN  3080
+             ALHYSCRQLNADGTCADSYSFVFSRDPKGLPPDALKIVRQRQI+LCLDRKYRVI HNGEN
+Sbjct  155   ALHYSCRQLNADGTCADSYSFVFSRDPKGLPPDALKIVRQRQIELCLDRKYRVIAHNGEN  214
+
+Query  3081  FFFLKNFISGCND  3119
+              FFL NFISG ND
+Sbjct  215   -FFLNNFISGFND  226
+
+
+ Score = 97.8 bits (242),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 44/46 (96%), Positives = 46/46 (100%), Gaps = 0/46 (0%)
+ Frame = +2
+
+Query  1148  QYSGTWYAMAKKDPEGLFLQDNVVAQFSVDENGQMTATAKGRVRLF  1285
+             +YSGTWYAMAKKDPEGLFLQDNVVAQF+VDENGQMTATAKGRVRLF
+Sbjct  59    RYSGTWYAMAKKDPEGLFLQDNVVAQFTVDENGQMTATAKGRVRLF  104
+
+
+ Score = 81.6 bits (200),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 56/58 (97%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+ Frame = +2
+
+Query  308  QSLFLMLFSVCCRDRMAHTERalpwllllslalvgsstaERDCRVSSFKVKENFDKTR  481
+            QSLFLMLFSVCCR+RMAHTERALPWLLLLSLAL+GSSTAERDCRVSSFKVKENFDKTR
+Sbjct  2    QSLFLMLFSVCCRNRMAHTERALPWLLLLSLALMGSSTAERDCRVSSFKVKENFDKTR  59
+
+
+ Score = 79.3 bits (194),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 33/39 (85%), Positives = 39/39 (100%), Gaps = 0/39 (0%)
+ Frame = +1
+
+Query  1411  YSNWDVCADMIGSFTDTDDPAKFKMRYWGVASFLQKGSE  1527
+             ++NWDVCADMIGSFTDT+DPAKFKM+YWGVASFLQKG++
+Sbjct  104   FNNWDVCADMIGSFTDTEDPAKFKMKYWGVASFLQKGND  142
+
+
+>H0YPK5 Lipocln_cytosolic_FA-bd_dom domain-containing protein OS=Taeniopygia 
+guttata OX=59729 PE=3 SV=2
+Length=198
+
+ Score = 78.2 bits (191),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 31/46 (67%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+ Frame = +2
+
+Query  1148  QYSGTWYAMAKKDPEGLFLQDNVVAQFSVDENGQMTATAKGRVRLF  1285
+             +Y+G WYA+AKKDPEGLFLQDN+ A+++V+E+G MTA++KGRV+LF
+Sbjct  39    RYAGKWYALAKKDPEGLFLQDNISAEYTVEEDGTMTASSKGRVKLF  84
+
+
+ Score = 69.7 bits (169),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 26/58 (45%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+ Frame = +3
+
+Query  2901  ALHYSCRQLNADGTCADSYSFVFSRDPKGLPPDALKIVRQRQIDLCLDRKYRVITHNG  3074
+             A+ Y+CR L  DG+C D YS +FSR+P+GLPP   +IVRQ+Q ++C+  +++ +  +G
+Sbjct  137   AITYACRSLKEDGSCDDGYSLIFSRNPRGLPPAIQRIVRQKQEEICMSGQFQPVLQSG  194
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 27134569320
+
+
+Query= pcadapt SNP_40840 maker-chr6-snap-gene-196.0: CM027512.1 Setophaga
+coronata coronata isolate EE26A12 chromosome 6, whole genome shotgun
+sequence
+
+Length=14086
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+H0ZEB4 Protein FRA10AC1 OS=Taeniopygia guttata OX=59729 GN=FRA10A...  83.2       3e-16
+
+
+>H0ZEB4 Protein FRA10AC1 OS=Taeniopygia guttata OX=59729 GN=FRA10AC1 
+PE=4 SV=2
+Length=321
+
+ Score = 83.2 bits (204),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 38/38 (100%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+ Frame = +2
+
+Query  10382  GQFSCGNKHCDENEGLKSWEVNFGYVEHGEKRNALVKL  10495
+              GQFSCGNKHCDENEGLKSWEVNFGYVEHGEKRNALVKL
+Sbjct  180    GQFSCGNKHCDENEGLKSWEVNFGYVEHGEKRNALVKL  217
+
+
+ Score = 66.6 bits (161),  Expect(2) = 7e-15, Method: Compositional matrix adjust.
+ Identities = 32/37 (86%), Positives = 33/37 (89%), Gaps = 0/37 (0%)
+ Frame = +2
+
+Query  2051  LFPSFRIQEDALLIKPFQKPKQGSVVHRQFAAEECDR  2161
+             L  + RIQEDALLIKPFQK KQGSVVHRQFAAEECDR
+Sbjct  31    LQKTKRIQEDALLIKPFQKAKQGSVVHRQFAAEECDR  67
+
+
+ Score = 35.8 bits (81),  Expect(2) = 7e-15, Method: Compositional matrix adjust.
+ Identities = 16/19 (84%), Positives = 17/19 (89%), Gaps = 0/19 (0%)
+ Frame = +1
+
+Query  2236  INREEARKRRFHLISMDAV  2292
+              +REEARKRRFHLISMDA 
+Sbjct  65    CDREEARKRRFHLISMDAY  83
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 36010108650
+
+
+Query= pcadapt SNP_40840 maker-chr6-snap-gene-196.3: CM027512.1 Setophaga
+coronata coronata isolate EE26A12 chromosome 6, whole genome shotgun
+sequence
+
+Length=26006
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+H0ZEL2 Phosphodiesterase OS=Taeniopygia guttata OX=59729 GN=PDE6C...  298        3e-84
+H0YPK4 Phosphodiesterase OS=Taeniopygia guttata OX=59729 GN=PDE6B...  123        3e-27
+H0YUK2 Phosphodiesterase OS=Taeniopygia guttata OX=59729 GN=PDE5A...  53.9       4e-14
+A0A674GM90 RAB31, member RAS oncogene family OS=Taeniopygia gutta...  52.8       4e-12
+
+
+>H0ZEL2 Phosphodiesterase OS=Taeniopygia guttata OX=59729 GN=PDE6C PE=3 
+SV=2
+Length=841
+
+ Score = 298 bits (763),  Expect = 3e-84, Method: Compositional matrix adjust.
+ Identities = 156/165 (95%), Positives = 159/165 (96%), Gaps = 0/165 (0%)
+ Frame = -1
+
+Query  25973  MGEVNKDAVEKYLENNPQFAKEYFDRKVRPEVVGSIFNVNPGDVKEGVSFKEMSRLEESN  25794
+              MGEVNKDAVEKYLENNPQFAKEYFDRK+RPEVVGSIFNVNPGDVKEGVSFK+MSRLEE N
+Sbjct  1      MGEVNKDAVEKYLENNPQFAKEYFDRKMRPEVVGSIFNVNPGDVKEGVSFKDMSRLEECN  60
+
+Query  25793  IIFELVSELQDEACVMEKMVHKalqrlaqllaADRCSLFVCRSRNGTPEVASRILDITPT  25614
+              IIFELVSE+QDEACVMEKMVHKALQRLAQLLAADRCSLFVCRSRNG PEVASRILDITPT
+Sbjct  61     IIFELVSEIQDEACVMEKMVHKALQRLAQLLAADRCSLFVCRSRNGIPEVASRILDITPT  120
+
+Query  25613  SKYEDNLVKPENETVFPLDIGIVGWVAHTKKFFNIPDVTKVSDFS  25479
+              S YE NLVKPENETVFPLDIGIVGWVAHTKKFFNIPDVTK S FS
+Sbjct  121    SDYEKNLVKPENETVFPLDIGIVGWVAHTKKFFNIPDVTKNSHFS  165
+
+
+ Score = 89.0 bits (219),  Expect(2) = 4e-36, Method: Compositional matrix adjust.
+ Identities = 36/38 (95%), Positives = 37/38 (97%), Gaps = 0/38 (0%)
+ Frame = -1
+
+Query  10814  QVLTRWMYTVRKGYRDITYHNWRHGFNVGQTMFTLLMV  10701
+              +VLTRWMYTVRKGYRDITYHNWRHGFNVGQTMFTLLM 
+Sbjct  543    EVLTRWMYTVRKGYRDITYHNWRHGFNVGQTMFTLLMT  580
+
+
+ Score = 85.9 bits (211),  Expect(2) = 4e-36, Method: Compositional matrix adjust.
+ Identities = 39/40 (98%), Positives = 39/40 (98%), Gaps = 0/40 (0%)
+ Frame = -2
+
+Query  10606  LLQTGKIKKYYTDLEAFAMVAAAFCHDIDHRGTNNLYQMK  10487
+              LL TGKIKKYYTDLEAFAMVAAAFCHDIDHRGTNNLYQMK
+Sbjct  577    LLMTGKIKKYYTDLEAFAMVAAAFCHDIDHRGTNNLYQMK  616
+
+
+ Score = 149 bits (376),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 84/138 (61%), Positives = 93/138 (67%), Gaps = 37/138 (27%)
+ Frame = -2
+
+Query  17302  LGMVIVLHLTCDFFSL--FFQNNHFSDFMDKKTGYKTVNMLATAITQGKEVLAVVMALNK  17129
+              +G+V  +  T  FF++    +N+HFSDFMDKKTGYKTVNMLATAITQGKEVLAVVMALNK
+Sbjct  140    IGIVGWVAHTKKFFNIPDVTKNSHFSDFMDKKTGYKTVNMLATAITQGKEVLAVVMALNK  199
+
+Query  17128  LNAPEFSKEDEEVKCHTIIqllvqqvv*MTLYLNLIFCLIFDLCHF*VFKKYLNFISLMV  16949
+              LNAPEFSKEDEE                                   VFKKYLNFISLMV
+Sbjct  200    LNAPEFSKEDEE-----------------------------------VFKKYLNFISLMV  224
+
+Query  16948  RNNHTSYLHNIESRKSQV  16895
+              RNNHTSYLH+IESRKSQ+
+Sbjct  225    RNNHTSYLHSIESRKSQL  242
+
+
+ Score = 60.8 bits (146),  Expect(3) = 6e-28, Method: Compositional matrix adjust.
+ Identities = 25/26 (96%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+ Frame = -1
+
+Query  16025  QEFYDEWPIRLGEAEPYKGPKTPDGR  15948
+              +EFYDEWPIRLGEAEPYKGPKTPDGR
+Sbjct  288    KEFYDEWPIRLGEAEPYKGPKTPDGR  313
+
+
+ Score = 56.2 bits (134),  Expect(3) = 6e-28, Method: Compositional matrix adjust.
+ Identities = 22/23 (96%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+ Frame = -3
+
+Query  15687  SPPADHWCLVSGLPTYVAENGLV  15619
+              SPPADHWCLVSGLPTYVAENGL+
+Sbjct  336    SPPADHWCLVSGLPTYVAENGLI  358
+
+
+ Score = 50.4 bits (119),  Expect(3) = 6e-28, Method: Compositional matrix adjust.
+ Identities = 22/22 (100%), Positives = 22/22 (100%), Gaps = 0/22 (0%)
+ Frame = -2
+
+Query  15859  EVNFYKIIDYLLHGQEEIKVIP  15794
+              EVNFYKIIDYLLHGQEEIKVIP
+Sbjct  314    EVNFYKIIDYLLHGQEEIKVIP  335
+
+
+ Score = 117 bits (293),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 64/92 (70%), Positives = 64/92 (70%), Gaps = 28/92 (30%)
+ Frame = -2
+
+Query  13825  WSVLNTDTYDKMNKLENRKDIAQEMLMYQTKATPAEVESILVSFCPQPQN*NRTLTAQNL  13646
+              WSVLNTDTYDKMNKLENRKDIAQEMLMYQTKATPAEVESIL                   
+Sbjct  431    WSVLNTDTYDKMNKLENRKDIAQEMLMYQTKATPAEVESIL-------------------  471
+
+Query  13645  NFLTLFHF*KYKEKLNAKSLDECDQKDLIRIL  13550
+                       KYKEKLNAKSLDECDQKDLIRIL
+Sbjct  472    ---------KYKEKLNAKSLDECDQKDLIRIL  494
+
+
+ Score = 109 bits (272),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 51/53 (96%), Positives = 51/53 (96%), Gaps = 0/53 (0%)
+ Frame = -1
+
+Query  14669  LQKGPVDESGWVIKNVLSLPIVNKKEEIVGVATFYNRKDGKPFDEYDEQITEV  14511
+               QKGPVDESGWVIKNVLSLPIVNKKEEIVGVATFYNRKDGKPFDEYDEQITE 
+Sbjct  372    FQKGPVDESGWVIKNVLSLPIVNKKEEIVGVATFYNRKDGKPFDEYDEQITET  424
+
+
+ Score = 105 bits (262),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 52/62 (84%), Positives = 56/62 (90%), Gaps = 3/62 (5%)
+ Frame = -1
+
+Query  11390  DRKPLVFVIS*QKEELPDPKDLELYEFRFSDFPVTEHGLIGCGIRLFFEINVVEKFKVPA  11211
+              D+K L+ ++   KEELPDPKDLELYEFRFSDFPVTEHGLI CGIRLFFEINVVEKFKVPA
+Sbjct  486    DQKDLIRIL---KEELPDPKDLELYEFRFSDFPVTEHGLITCGIRLFFEINVVEKFKVPA  542
+
+Query  11210  EV  11205
+              EV
+Sbjct  543    EV  544
+
+
+ Score = 102 bits (253),  Expect = 9e-21, Method: Compositional matrix adjust.
+ Identities = 46/47 (98%), Positives = 47/47 (100%), Gaps = 0/47 (0%)
+ Frame = -2
+
+Query  16669  MLLWSANKVFEELTDIERQFHKALYTIRMYLNCERYSVGLLDMTKEK  16529
+              +LLWSANKVFEELTDIERQFHKALYTIRMYLNCERYSVGLLDMTKEK
+Sbjct  242    LLLWSANKVFEELTDIERQFHKALYTIRMYLNCERYSVGLLDMTKEK  288
+
+
+ Score = 72.4 bits (176),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 35/45 (78%), Positives = 39/45 (87%), Gaps = 0/45 (0%)
+ Frame = -2
+
+Query  5788  SVIYALLVCFNRKRTMFQKIVDAIEKMETEEQAIKYISIDPTKKE  5654
+             ++I   L  + +KRTMFQKIVDAIEKMETEEQAIKYISIDPTKKE
+Sbjct  668   AIIATDLALYFKKRTMFQKIVDAIEKMETEEQAIKYISIDPTKKE  712
+
+
+ Score = 72.0 bits (175),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 34/35 (97%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+ Frame = -2
+
+Query  6922  QSLNIFQNLNKRQYETVLHLFEVAIIATDLALYFK  6818
+             +SLNIFQNLNKRQYETVLHLFEVAIIATDLALYFK
+Sbjct  645   ESLNIFQNLNKRQYETVLHLFEVAIIATDLALYFK  679
+
+
+ Score = 69.7 bits (169),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 30/31 (97%), Positives = 31/31 (100%), Gaps = 0/31 (0%)
+ Frame = -3
+
+Query  3069  QEFSRFHKEITPMFDGLQNNRVEWKTRADEY  2977
+             +EFSRFHKEITPMFDGLQNNRVEWKTRADEY
+Sbjct  789   KEFSRFHKEITPMFDGLQNNRVEWKTRADEY  819
+
+
+>H0YPK4 Phosphodiesterase OS=Taeniopygia guttata OX=59729 GN=PDE6B PE=3 
+SV=1
+Length=836
+
+ Score = 123 bits (308),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 73/162 (45%), Positives = 103/162 (64%), Gaps = 22/162 (14%)
+ Frame = -1
+
+Query  25964  VNKDAVEKYLENNPQFAKEYFDRKVRPEVVGSIFNVNPGDVKEGVSFKEMSRLEESNIIF  25785
+              +++D VEK+L+ NP FAK+YF++K++ E   +                      ES I+F
+Sbjct  3      ISEDDVEKFLDGNPAFAKQYFEKKLKTESWDN---------------------NESEILF  41
+
+Query  25784  ELVSELQDEACVMEKMVHKalqrlaqllaADRCSLFVCRSRNGTPEVASRILDITPTSKY  25605
+              EL+ ++Q E+  MEK+V K L+R+  L+ ADRCSLF+ R RNGTPE+A+R+ +I   S  
+Sbjct  42     ELIQDMQ-ESINMEKVVFKTLRRIRSLIHADRCSLFMYRQRNGTPELATRLFNIQEGSTL  100
+
+Query  25604  EDNLVKPENETVFPLDIGIVGWVAHTKKFFNIPDVTKVSDFS  25479
+              E+ LV P+ E V+PLDIGIVG VA TKK  NI DV + + FS
+Sbjct  101    EECLVAPDCEIVYPLDIGIVGHVAQTKKTMNIKDVRECAQFS  142
+
+
+ Score = 93.6 bits (231),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 41/51 (80%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+ Frame = -1
+
+Query  14666  QKGPVDESGWVIKNVLSLPIVNKKEEIVGVATFYNRKDGKPFDEYDEQITE  14514
+              Q+GP+DESGW IKNVLS+PIVNK+EEIVGV TFYNRKDGKPFDE DE + E
+Sbjct  350    QEGPLDESGWTIKNVLSMPIVNKREEIVGVVTFYNRKDGKPFDEQDETLME  400
+
+
+ Score = 92.8 bits (229),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 51/80 (64%), Positives = 60/80 (75%), Gaps = 9/80 (11%)
+ Frame = -2
+
+Query  16744  ECLGLMYLCFLTVLNITLF----LFFCK*----MLLWSANKVFEELTDIERQFHKALYTI  16589
+              E L L YL F + LN+ ++    L  C+     +LLWSANKVFEELTDIERQFHKA YT+
+Sbjct  187    ETLFLKYLNFAS-LNLKIYHLSYLHNCETRRGQVLLWSANKVFEELTDIERQFHKAFYTV  245
+
+Query  16588  RMYLNCERYSVGLLDMTKEK  16529
+              R YLNC+RYSVGLLDMTK+K
+Sbjct  246    RAYLNCDRYSVGLLDMTKQK  265
+
+
+ Score = 44.7 bits (104),  Expect(3) = 4e-16, Method: Compositional matrix adjust.
+ Identities = 17/27 (63%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+ Frame = -1
+
+Query  16028  SQEFYDEWPIRLGEAEPYKGPKTPDGR  15948
+               +EF+D WP+ LGE  PY GP+TPDGR
+Sbjct  264    QKEFFDLWPVLLGEVPPYSGPRTPDGR  290
+
+
+ Score = 42.0 bits (97),  Expect(3) = 4e-16, Method: Compositional matrix adjust.
+ Identities = 16/22 (73%), Positives = 21/22 (95%), Gaps = 0/22 (0%)
+ Frame = -2
+
+Query  15859  EVNFYKIIDYLLHGQEEIKVIP  15794
+              E+ FYK+IDY+LHG+E+IKVIP
+Sbjct  291    EIVFYKVIDYILHGKEDIKVIP  312
+
+
+ Score = 40.4 bits (93),  Expect(3) = 4e-16, Method: Compositional matrix adjust.
+ Identities = 14/23 (61%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+ Frame = -3
+
+Query  15687  SPPADHWCLVSGLPTYVAENGLV  15619
+              +P  DHW LV+GLP YVAE+G +
+Sbjct  313    NPTPDHWALVTGLPAYVAESGFI  335
+
+
+ Score = 77.8 bits (190),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 35/50 (70%), Positives = 41/50 (82%), Gaps = 0/50 (0%)
+ Frame = -2
+
+Query  10636  GRHMLRVICFLLQTGKIKKYYTDLEAFAMVAAAFCHDIDHRGTNNLYQMK  10487
+              G ++ + +  LL TGK+K+YYTDLEA AMV AA CHDIDHRGTNNLYQMK
+Sbjct  543    GFNVAQTMFTLLMTGKLKRYYTDLEALAMVTAALCHDIDHRGTNNLYQMK  592
+
+
+ Score = 73.6 bits (179),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 45/115 (39%), Positives = 60/115 (52%), Gaps = 35/115 (30%)
+ Frame = -2
+
+Query  17239  HFSDFMDKKTGYKTVNMLATAITQGKEVLAVVMALNKLNAPEFSKEDEEVKCHTIIqllv  17060
+               FS F+D+ T Y T N+LAT I  GK+++AV++A+NKLN P F+  DE            
+Sbjct  140    QFSPFVDELTDYTTKNILATPILNGKDLVAVIVAINKLNGPHFTSSDE------------  187
+
+Query  17059  qqvv*MTLYLNLIFCLIFDLCHF*VFKKYLNFISLMVRNNHTSYLHNIESRKSQV  16895
+                    TL+L                 KYLNF SL ++  H SYLHN E+R+ QV
+Sbjct  188    ------TLFL-----------------KYLNFASLNLKIYHLSYLHNCETRRGQV  219
+
+
+ Score = 72.0 bits (175),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 30/38 (79%), Positives = 34/38 (89%), Gaps = 0/38 (0%)
+ Frame = -1
+
+Query  10817  QQVLTRWMYTVRKGYRDITYHNWRHGFNVGQTMFTLLM  10704
+              Q+VL R++Y+V KGYR ITYHNWRHGFNV QTMFTLLM
+Sbjct  518    QEVLVRFVYSVSKGYRKITYHNWRHGFNVAQTMFTLLM  555
+
+
+ Score = 71.6 bits (174),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 32/68 (47%), Positives = 46/68 (68%), Gaps = 3/68 (4%)
+ Frame = -1
+
+Query  11393  LDRKPLVFVIS*QKEELPDPKDLELYEFRFSDFPVTEHGLIGCGIRLFFEINVVEKFKVP  11214
+               D + L  ++   KEELP P   E+YEFRFSDF  TE  L+ CGI++++E+ VV+KF++P
+Sbjct  461    CDEEELASIL---KEELPGPTKFEIYEFRFSDFDCTELELVKCGIQMYYELGVVKKFQIP  517
+
+Query  11213  AEVWFIFL  11190
+               EV   F+
+Sbjct  518    QEVLVRFV  525
+
+
+>H0YUK2 Phosphodiesterase OS=Taeniopygia guttata OX=59729 GN=PDE5A PE=3 
+SV=2
+Length=849
+
+ Score = 53.9 bits (128),  Expect(2) = 4e-14, Method: Compositional matrix adjust.
+ Identities = 20/37 (54%), Positives = 26/37 (70%), Gaps = 1/37 (3%)
+ Frame = -1
+
+Query  10814  QVLTRWMYTVRKGYR-DITYHNWRHGFNVGQTMFTLL  10707
+              +VL RW+ +V+K YR ++ YHNWRH FN  Q MF  L
+Sbjct  571    EVLCRWILSVKKNYRKNVAYHNWRHAFNTAQCMFAAL  607
+
+
+ Score = 47.0 bits (110),  Expect(2) = 4e-14, Method: Compositional matrix adjust.
+ Identities = 19/36 (53%), Positives = 25/36 (69%), Gaps = 0/36 (0%)
+ Frame = -2
+
+Query  10603  LQTGKIKKYYTDLEAFAMVAAAFCHDIDHRGTNNLY  10496
+              L++GKI+   TDLE  A++ A   HD+DHRG NN Y
+Sbjct  607    LKSGKIQSKLTDLETLALLIATLSHDLDHRGVNNSY  642
+
+
+>A0A674GM90 RAB31, member RAS oncogene family OS=Taeniopygia guttata OX=59729 
+GN=RAB31 PE=4 SV=1
+Length=346
+
+ Score = 52.8 bits (125),  Expect(2) = 4e-12, Method: Compositional matrix adjust.
+ Identities = 25/40 (63%), Positives = 32/40 (80%), Gaps = 1/40 (3%)
+ Frame = +1
+
+Query  5164  MRSNGSKLNHKKFHLHVSKNKYSLRVEEHWNRLPRDVVES  5283
+             MRSNG KL HK+FHL+  KN ++LRV E WN+L R+V+ES
+Sbjct  1     MRSNGHKLKHKRFHLNARKN-FTLRVAEQWNKLSREVMES  39
+
+
+ Score = 41.2 bits (95),  Expect(2) = 4e-12, Method: Compositional matrix adjust.
+ Identities = 22/36 (61%), Positives = 25/36 (69%), Gaps = 1/36 (3%)
+ Frame = +3
+
+Query  5283  CLETFKTCLDQFLCKL*-VTLPWERGWTG*SPEVPT  5387
+              LETFK  LD FL  L  VTLPW+ GWT  SPE+P+
+Sbjct  41    SLETFKPHLDVFLLHLLQVTLPWQEGWTRCSPELPS  76
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 66686825664
+
+
+Query= pcadapt SNP_32256 maker-chr20-snap-gene-101.9: CM027525.1 Setophaga
+coronata coronata isolate EE26A12 chromosome 20, whole genome
+shotgun sequence
+
+Length=16431
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+H0ZBL2 Cdk5 and Abl enzyme substrate 2 OS=Taeniopygia guttata OX=...  145        1e-35
+H0ZJE1 Cdk5 and Abl enzyme substrate 1 OS=Taeniopygia guttata OX=...  120        8e-29
+
+
+>H0ZBL2 Cdk5 and Abl enzyme substrate 2 OS=Taeniopygia guttata OX=59729 
+GN=CABLES2 PE=4 SV=2
+Length=500
+
+ Score = 145 bits (365),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 77/116 (66%), Positives = 86/116 (74%), Gaps = 2/116 (2%)
+ Frame = +1
+
+Query  13318  HSRIILVMVFQRGILPLCFSELLCCSISIAF-NKICHVWGGVFSPIPSLKREMRNLSEEC  13494
+              H R+++   +   ++       L   ++  F  K  H+     S I SLKREMRNLSEEC
+Sbjct  340    HKRVLIFASYMTTVIEYVKPSDLKKDMNETFREKFPHIKL-TLSKIRSLKREMRNLSEEC  398
+
+Query  13495  SLEPVTVSMAYVYFEKLVLQGKLNKQNRKLCAGACVLLAAKISSDLRKHEVKHLID  13662
+              SLEPVTVSMAYVYFEKLVLQGKLNKQNRKLCAGACVLLAAKISSDLRKHEVKHLID
+Sbjct  399    SLEPVTVSMAYVYFEKLVLQGKLNKQNRKLCAGACVLLAAKISSDLRKHEVKHLID  454
+
+
+ Score = 115 bits (287),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 58/83 (70%), Positives = 65/83 (78%), Gaps = 10/83 (12%)
+ Frame = +2
+
+Query  10712  QVVSYAKFLYPTNALVVRKADAYGAVPPCRASAPRSLPGSRYKPVTAKTIPAGTDIGKDS  10891
+              +VVSYAKFLYPTNALVVRKADAYGA PPCRASAPRSLPG+RYKPVTAKTIPAGTDIG ++
+Sbjct  260    KVVSYAKFLYPTNALVVRKADAYGAAPPCRASAPRSLPGTRYKPVTAKTIPAGTDIGSEA  319
+
+Query  10892  SQLCHH---------W-CTQQKR  10930
+               +   +         W C + KR
+Sbjct  320    GEAAEYDPNLLDDPQWPCGKHKR  342
+
+
+ Score = 93.2 bits (230),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 44/44 (100%), Positives = 44/44 (100%), Gaps = 0/44 (0%)
+ Frame = +2
+
+Query  14084  EERFRFNRRDLIGFEFTVLVALELALYLPENQVLPHYRRLTQQS  14215
+              EERFRFNRRDLIGFEFTVLVALELALYLPENQVLPHYRRLTQQS
+Sbjct  457    EERFRFNRRDLIGFEFTVLVALELALYLPENQVLPHYRRLTQQS  500
+
+
+ Score = 82.8 bits (203),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/45 (87%), Positives = 41/45 (91%), Gaps = 0/45 (0%)
+ Frame = +2
+
+Query  10094  FSDLKMEGQKQRHPSGGVSVSTEMVLGLEGVELGADGKVRTFTFF  10228
+               SDLKMEGQKQRHPSGGVSVSTEMVLGLEGVELGADGKV ++  F
+Sbjct  223    ISDLKMEGQKQRHPSGGVSVSTEMVLGLEGVELGADGKVVSYAKF  267
+
+
+ Score = 82.0 bits (201),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 35/37 (95%), Positives = 36/37 (97%), Gaps = 0/37 (0%)
+ Frame = +3
+
+Query  11592  GSEAGEAAEYDPNLLDDPQWPCGKHKRVLIFASYMVS  11702
+              GSEAGEAAEYDPNLLDDPQWPCGKHKRVLIFASYM +
+Sbjct  316    GSEAGEAAEYDPNLLDDPQWPCGKHKRVLIFASYMTT  352
+
+
+ Score = 80.1 bits (196),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 37/49 (76%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+ Frame = +1
+
+Query  12025  CSQDK**ILLLAFQTTVIEYVKPSDLKKDMNETFREKFPHIKLTLSKIR  12171
+              C + K  ++  ++ TTVIEYVKPSDLKKDMNETFREKFPHIKLTLSKIR
+Sbjct  337    CGKHKRVLIFASYMTTVIEYVKPSDLKKDMNETFREKFPHIKLTLSKIR  385
+
+
+ Score = 70.9 bits (172),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 34/40 (85%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+ Frame = +2
+
+Query  7715  FVFLFYRCRTKHISGSPRHKSLKKMHFIKNMRQYDTKNSR  7834
+             F     R RTKHISGSPRHKSLKKMHFIKNMRQYDTKNSR
+Sbjct  159   FALEAQRQRTKHISGSPRHKSLKKMHFIKNMRQYDTKNSR  198
+
+
+>H0ZJE1 Cdk5 and Abl enzyme substrate 1 OS=Taeniopygia guttata OX=59729 
+GN=CABLES1 PE=4 SV=2
+Length=311
+
+ Score = 120 bits (300),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 61/77 (79%), Positives = 65/77 (84%), Gaps = 1/77 (1%)
+ Frame = +1
+
+Query  13438  VFSPIPSLKREMRNLS-EECSLEPVTVSMAYVYFEKLVLQGKLNKQNRKLCAGACVLLAA  13614
+                S I SLKREMR L+ EEC  E  TV+MA+VYFEKL L+GKLNKQNRKLCAGACVLLAA
+Sbjct  186    TLSKIRSLKREMRKLAQEECGFEEPTVAMAFVYFEKLALKGKLNKQNRKLCAGACVLLAA  245
+
+Query  13615  KISSDLRKHEVKHLIDV  13665
+              KI SDLRKHEVKHLIDV
+Sbjct  246    KIGSDLRKHEVKHLIDV  262
+
+
+ Score = 74.7 bits (182),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 35/49 (71%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+ Frame = +1
+
+Query  12025  CSQDK**ILLLAFQTTVIEYVKPSDLKKDMNETFREKFPHIKLTLSKIR  12171
+              C + K  ++  ++ TTVI+YVKPSDLKKDMNETF+EKFPHIKLTLSKIR
+Sbjct  143    CGKHKRVLIFPSYMTTVIDYVKPSDLKKDMNETFKEKFPHIKLTLSKIR  191
+
+
+ Score = 72.0 bits (175),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 30/40 (75%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+ Frame = +3
+
+Query  11583  IPSGSEAGEAAEYDPNLLDDPQWPCGKHKRVLIFASYMVS  11702
+              I +GS+ G+  EYDPNLLDDPQWPCGKHKRVLIF SYM +
+Sbjct  119    IDAGSDLGDFVEYDPNLLDDPQWPCGKHKRVLIFPSYMTT  158
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 42069092988
+
+
+Query= pcadapt SNP_55945 maker-chr23-snap-gene-32.1: CM027528.1 Setophaga
+coronata coronata isolate EE26A12 chromosome 23, whole genome
+shotgun sequence
+
+Length=11117
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+H0YTD7 Metal regulatory transcription factor 1 OS=Taeniopygia gut...  280        3e-79
+A0A674GAC1 Zinc finger protein 143 OS=Taeniopygia guttata OX=5972...  82.8       2e-15
+A0A674HFG0 Zinc finger protein 76 OS=Taeniopygia guttata OX=59729...  80.1       1e-14
+A0A674H590 Zinc finger protein 410 OS=Taeniopygia guttata OX=5972...  79.0       2e-14
+H0YUC7 GLI family zinc finger 3 OS=Taeniopygia guttata OX=59729 G...  79.3       4e-14
+H0Z2F9 GLI family zinc finger 2 OS=Taeniopygia guttata OX=59729 G...  78.2       8e-14
+H0ZMW4 General transcription factor IIIA OS=Taeniopygia guttata O...  72.0       2e-12
+A0A674H7L4 Zic family member 4 OS=Taeniopygia guttata OX=59729 GN...  72.4       3e-12
+A0A674H9L1 GLI family zinc finger 1 OS=Taeniopygia guttata OX=597...  72.0       6e-12
+A0A674GD57 Zic family member 5 OS=Taeniopygia guttata OX=59729 GN...  69.3       3e-11
+H0Z4D5 GLIS family zinc finger 3 OS=Taeniopygia guttata OX=59729 ...  68.6       5e-11
+
+
+>H0YTD7 Metal regulatory transcription factor 1 OS=Taeniopygia guttata 
+OX=59729 GN=MTF1 PE=4 SV=2
+Length=731
+
+ Score = 280 bits (715),  Expect = 3e-79, Method: Compositional matrix adjust.
+ Identities = 133/139 (96%), Positives = 135/139 (97%), Gaps = 0/139 (0%)
+ Frame = +1
+
+Query  1    MGENSPEGNAIYYEGEEDDLAQDENMMRFADKNGLVSSSSGTVYDRTTVLIEQDHSVLED  180
+            MGENSPEGNA+  E EE+DLAQDENMMRFADKNGLVSSSSGTVYDRTTVLIEQDHSVLED
+Sbjct  1    MGENSPEGNAVCCEAEEEDLAQDENMMRFADKNGLVSSSSGTVYDRTTVLIEQDHSVLED  60
+
+Query  181  EEDEGQCGDHLPFLPEGHEEGFHLIADHEGMSQGYVQHIISPDQIHLTINPGSTPMPRNI  360
+            EEDEGQCGDHLPFLPEGHEEGFHLI DHEGMSQGYVQHIISPDQIHLTINPGSTPMPRNI
+Sbjct  61   EEDEGQCGDHLPFLPEGHEEGFHLIPDHEGMSQGYVQHIISPDQIHLTINPGSTPMPRNI  120
+
+Query  361  EGATLTLQSECPETKRKEV  417
+            EGATLTLQSECPETKRKEV
+Sbjct  121  EGATLTLQSECPETKRKEV  139
+
+
+ Score = 257 bits (657),  Expect = 8e-72, Method: Compositional matrix adjust.
+ Identities = 152/187 (81%), Positives = 153/187 (82%), Gaps = 34/187 (18%)
+ Frame = +1
+
+Query  10555  PQVPKVVEKVFFTTALPVAGNTGKRDPEQID*TKlisvsll*nsvvPSCFFFVSPSGNPV  10734
+              PQVPKVVEKVFFTTALPVAGNTG                                  NPV
+Sbjct  579    PQVPKVVEKVFFTTALPVAGNTG----------------------------------NPV  604
+
+Query  10735  QQIGLSVPVIIIKqeeacqcqcacRDSAKDKATSTVKKECSSPDSKALEQPASQLQPQTF  10914
+              QQIGLSVPVIIIKQEEACQCQCACRDSAKDKATSTVKKECSSPDSKALEQPASQLQPQTF
+Sbjct  605    QQIGLSVPVIIIKQEEACQCQCACRDSAKDKATSTVKKECSSPDSKALEQPASQLQPQTF  664
+
+Query  10915  PSSSAPPPCGQSSQIVNPSDSQTETLSAMDVSDFLSLQSPETPSNIIPIEALLQGEEEIG  11094
+              PSSSAPPPCGQSSQIVNPSDSQTETLSAMDVSDFLSLQSPETPSNIIPIEALLQGEEEIG
+Sbjct  665    PSSSAPPPCGQSSQIVNPSDSQTETLSAMDVSDFLSLQSPETPSNIIPIEALLQGEEEIG  724
+
+Query  11095  LNSNFSK  11115
+              LNS+FSK
+Sbjct  725    LNSSFSK  731
+
+
+ Score = 177 bits (450),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 80/81 (99%), Positives = 81/81 (100%), Gaps = 0/81 (0%)
+ Frame = +2
+
+Query  4739  QVKRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHT  4918
+             +VKRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHT
+Sbjct  138   EVKRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHT  197
+
+Query  4919  KEKPFECDVQGCEKAFNTLYR  4981
+             KEKPFECDVQGCEKAFNTLYR
+Sbjct  198   KEKPFECDVQGCEKAFNTLYR  218
+
+
+ Score = 150 bits (379),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 118/121 (98%), Positives = 118/121 (98%), Gaps = 0/121 (0%)
+ Frame = +2
+
+Query  9431  FGNPATVLQSPEVPVPHSTPFAASHQDFLQHSQPPPQPIVQGLSVVagapaptapsatep  9610
+             FGNPATVLQSPEVPVP STPFAASHQDFLQHSQPPPQPIVQGLSVVAGAPAPTAPSATEP
+Sbjct  458   FGNPATVLQSPEVPVPRSTPFAASHQDFLQHSQPPPQPIVQGLSVVAGAPAPTAPSATEP  517
+
+Query  9611  lpaVVQTVPVGANPVLtsnptititpspsttilqpsiVMGEQNLQWILNGATGSPQSQEQ  9790
+             LPAVVQTVPVGANPVLTSNPTITITPSPST ILQ SIVMGEQNLQWILNGATGSPQSQEQ
+Sbjct  518   LPAVVQTVPVGANPVLTSNPTITITPSPSTAILQSSIVMGEQNLQWILNGATGSPQSQEQ  577
+
+Query  9791  M  9793
+             M
+Sbjct  578   M  578
+
+
+ Score = 104 bits (259),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 46/50 (92%), Positives = 48/50 (96%), Gaps = 0/50 (0%)
+ Frame = +2
+
+Query  6074  FDMFFRLKAHQRLHTGKTFNCESEGCSKYFTTHSDLRKHIRTHTGEKPFR  6223
+             F+  +RLKAHQRLHTGKTFNCESEGCSKYFTTHSDLRKHIRTHTGEKPFR
+Sbjct  213   FNTLYRLKAHQRLHTGKTFNCESEGCSKYFTTHSDLRKHIRTHTGEKPFR  262
+
+
+ Score = 98.6 bits (244),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 46/50 (92%), Positives = 48/50 (96%), Gaps = 0/50 (0%)
+ Frame = +1
+
+Query  7345  GEKPFFCPSNGCEKTFSTQYSLKSHMKGHEKGHTYNALPNSNVSEVSSTS  7494
+             GEKPFFCPSNGCEKTFSTQYSLKSHMKGHEKGHTYNALPN+NVSE +S S
+Sbjct  287   GEKPFFCPSNGCEKTFSTQYSLKSHMKGHEKGHTYNALPNNNVSEDTSHS  336
+
+
+ Score = 87.0 bits (214),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 41/78 (53%), Positives = 50/78 (64%), Gaps = 0/78 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             K + C  EGC + ++T  +LR H +TH GE  F C  +GCGKAF  S+ LK HVR HT E
+Sbjct  229   KTFNCESEGCSKYFTTHSDLRKHIRTHTGEKPFRCEHDGCGKAFAASHHLKTHVRTHTGE  288
+
+Query  4925  KPFECDVQGCEKAFNTLY  4978
+             KPF C   GCEK F+T Y
+Sbjct  289   KPFFCPSNGCEKTFSTQY  306
+
+
+ Score = 75.5 bits (184),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 36/39 (92%), Positives = 36/39 (92%), Gaps = 0/39 (0%)
+ Frame = +2
+
+Query  8594  THGQDLSTISPASIFESMFQSPDHTANQDDSQQTGTSCI  8710
+             THGQDLSTISPASIFESMFQSPDHTANQDDSQQT  S I
+Sbjct  358   THGQDLSTISPASIFESMFQSPDHTANQDDSQQTAASLI  396
+
+
+>A0A674GAC1 Zinc finger protein 143 OS=Taeniopygia guttata OX=59729 GN=ZNF143 
+PE=4 SV=1
+Length=641
+
+ Score = 82.8 bits (203),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 35/76 (46%), Positives = 51/76 (67%), Gaps = 0/76 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             K ++C ++GC + Y+TA +L+ H+++H G+  + C   GCGKAF T Y LK HVR HT E
+Sbjct  238   KAFRCDYDGCGKLYTTAHHLKVHERSHTGDRPYQCEHPGCGKAFATGYGLKSHVRTHTGE  297
+
+Query  4925  KPFECDVQGCEKAFNT  4972
+             KP+ C  + C K+F T
+Sbjct  298   KPYRCTEENCTKSFKT  313
+
+
+ Score = 77.0 bits (188),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 35/74 (47%), Positives = 50/74 (68%), Gaps = 0/74 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             K Y+CT E C +++ T+G+L+ H +TH GE  F C  EGCG++F TS   K+H+R HT E
+Sbjct  298   KPYRCTEENCTKSFKTSGDLQKHIRTHTGERPFKCPFEGCGRSFTTSNIRKVHIRTHTGE  357
+
+Query  4925  KPFECDVQGCEKAF  4966
+             +P+ C   GC +AF
+Sbjct  358   RPYYCTEPGCGRAF  371
+
+
+ Score = 73.6 bits (179),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 32/76 (42%), Positives = 49/76 (64%), Gaps = 0/76 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             + YQC   GC + ++T   L++H +TH GE  + C +E C K+F TS  L+ H+R HT E
+Sbjct  268   RPYQCEHPGCGKAFATGYGLKSHVRTHTGEKPYRCTEENCTKSFKTSGDLQKHIRTHTGE  327
+
+Query  4925  KPFECDVQGCEKAFNT  4972
+             +PF+C  +GC ++F T
+Sbjct  328   RPFKCPFEGCGRSFTT  343
+
+
+>A0A674HFG0 Zinc finger protein 76 OS=Taeniopygia guttata OX=59729 GN=ZNF76 
+PE=4 SV=1
+Length=612
+
+ Score = 80.1 bits (196),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 35/76 (46%), Positives = 50/76 (66%), Gaps = 0/76 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             + ++C ++GC R Y+TA +L+ H++ H G+  + C+   CGKAF T Y LK HVR HT E
+Sbjct  220   RAFRCGYKGCGRLYTTAHHLKVHERAHTGDRPYTCDFPSCGKAFATGYGLKSHVRTHTGE  279
+
+Query  4925  KPFECDVQGCEKAFNT  4972
+             KP++C    C KAF T
+Sbjct  280   KPYKCPEDMCSKAFKT  295
+
+
+ Score = 72.8 bits (177),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 32/82 (39%), Positives = 54/82 (66%), Gaps = 3/82 (4%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             + ++C F GC R+++T+   + H +TH GE  ++C + GCG+ F ++ + K H+R+HT E
+Sbjct  310   RPFKCPFVGCGRSFTTSNIRKVHIRTHTGERPYMCAEPGCGRGFTSATNYKNHMRIHTGE  369
+
+Query  4925  KPFECDVQGCEKAF---NTLYR  4981
+             KP+ C V GC K F   ++LY+
+Sbjct  370   KPYLCTVPGCGKRFTEYSSLYK  391
+
+
+ Score = 70.5 bits (171),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 31/76 (41%), Positives = 47/76 (62%), Gaps = 0/76 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             + Y C F  C + ++T   L++H +TH GE  + C ++ C KAF TS  L+ H+R HT E
+Sbjct  250   RPYTCDFPSCGKAFATGYGLKSHVRTHTGEKPYKCPEDMCSKAFKTSGDLQKHIRTHTGE  309
+
+Query  4925  KPFECDVQGCEKAFNT  4972
+             +PF+C   GC ++F T
+Sbjct  310   RPFKCPFVGCGRSFTT  325
+
+
+ Score = 70.1 bits (170),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 31/76 (41%), Positives = 47/76 (62%), Gaps = 0/76 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             K Y+C  + C + + T+G+L+ H +TH GE  F C   GCG++F TS   K+H+R HT E
+Sbjct  280   KPYKCPEDMCSKAFKTSGDLQKHIRTHTGERPFKCPFVGCGRSFTTSNIRKVHIRTHTGE  339
+
+Query  4925  KPFECDVQGCEKAFNT  4972
+             +P+ C   GC + F +
+Sbjct  340   RPYMCAEPGCGRGFTS  355
+
+
+>A0A674H590 Zinc finger protein 410 OS=Taeniopygia guttata OX=59729 GN=ZNF410 
+PE=4 SV=1
+Length=445
+
+ Score = 79.0 bits (193),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 34/74 (46%), Positives = 48/74 (65%), Gaps = 0/74 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             + + C  EGC +++     L+ H +TH GE  FVC + GCGK F T+ +LK H+R+HT E
+Sbjct  255   RSFTCPAEGCGKSFYVLQRLKVHMRTHNGEKPFVCTELGCGKQFTTAGNLKNHLRIHTGE  314
+
+Query  4925  KPFECDVQGCEKAF  4966
+             KPF C  QGC ++F
+Sbjct  315   KPFLCQAQGCGRSF  328
+
+
+ Score = 77.8 bits (190),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 36/84 (43%), Positives = 48/84 (57%), Gaps = 0/84 (0%)
+ Frame = +2
+
+Query  4721  MQHFVLQVKRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKI  4900
+             + H     ++ +CT EGC RT+    + + H KTHR + +F C  EGCGK+F     LK+
+Sbjct  217   IPHLSRVERKLKCTVEGCDRTFVWPAHFKYHLKTHRNDRSFTCPAEGCGKSFYVLQRLKV  276
+
+Query  4901  HVRVHTKEKPFECDVQGCEKAFNT  4972
+             H+R H  EKPF C   GC K F T
+Sbjct  277   HMRTHNGEKPFVCTELGCGKQFTT  300
+
+
+>H0YUC7 GLI family zinc finger 3 OS=Taeniopygia guttata OX=59729 GN=GLI3 
+PE=3 SV=2
+Length=1575
+
+ Score = 79.3 bits (194),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 43/108 (40%), Positives = 58/108 (54%), Gaps = 8/108 (7%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHV-RVHTK  4921
+             K ++CTFEGC + YS   NL+TH ++H GE  +VC  EGC KAF  +     H  R H+ 
+Sbjct  546   KPHKCTFEGCTKAYSRLENLKTHLRSHTGEKPYVCEHEGCNKAFSNASDRAKHQNRTHSN  605
+
+Query  4922  EKPFECDVQGCEKAFN--TLYR*GGVQHTVQVRGCSTHCT-SERGVYH  5056
+             EKP+ C + GC K +   +  R    +H   V G   H T  +RG  H
+Sbjct  606   EKPYVCKIPGCTKRYTDPSSLR----KHVKTVHGPEAHVTKKQRGDIH  649
+
+
+>H0Z2F9 GLI family zinc finger 2 OS=Taeniopygia guttata OX=59729 GN=GLI2 
+PE=3 SV=2
+Length=1528
+
+ Score = 78.2 bits (191),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 40/103 (39%), Positives = 56/103 (54%), Gaps = 7/103 (7%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHV-RVHTK  4921
+             K ++CTFEGC + YS   NL+TH ++H GE  +VC  EGC KAF  +     H  R H+ 
+Sbjct  477   KPHKCTFEGCSKAYSRLENLKTHLRSHTGEKPYVCEHEGCNKAFSNASDRAKHQNRTHSN  536
+
+Query  4922  EKPFECDVQGCEKAFN--TLYR*GGVQHTVQVRGCSTHCTSER  5044
+             EKP+ C + GC K +   +  R    +H   V G   H T ++
+Sbjct  537   EKPYVCKIPGCTKRYTDPSSLR----KHVKTVHGPDAHVTKKQ  575
+
+
+>H0ZMW4 General transcription factor IIIA OS=Taeniopygia guttata OX=59729 
+GN=GTF3A PE=4 SV=2
+Length=364
+
+ Score = 72.0 bits (175),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 34/79 (43%), Positives = 44/79 (56%), Gaps = 0/79 (0%)
+ Frame = +2
+
+Query  4736  LQVKRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVH  4915
+             L  + Y C+F GC  T++ A  L  H   H GE  +VC+ EGCGK F   + L  H+  H
+Sbjct  48    LPFRPYICSFPGCDATFNKAWRLSAHLCRHTGERPYVCDYEGCGKGFTRDFHLTRHLLTH  107
+
+Query  4916  TKEKPFECDVQGCEKAFNT  4972
+             T EKPF+C   GC + F T
+Sbjct  108   TGEKPFKCTADGCNEKFGT  126
+
+
+>A0A674H7L4 Zic family member 4 OS=Taeniopygia guttata OX=59729 GN=ZIC4 PE=3 
+SV=1
+Length=541
+
+ Score = 72.4 bits (176),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 31/74 (42%), Positives = 46/74 (62%), Gaps = 0/74 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             K + C F GC + ++ + NL+ H++TH GE  F C  EGC + F  S   K H  VHT +
+Sbjct  374   KPFPCPFPGCGKVFARSENLKIHKRTHTGEKPFKCEFEGCDRRFANSSDRKKHSHVHTSD  433
+
+Query  4925  KPFECDVQGCEKAF  4966
+             KP+ C V+GC+K++
+Sbjct  434   KPYNCKVRGCDKSY  447
+
+
+>A0A674H9L1 GLI family zinc finger 1 OS=Taeniopygia guttata OX=59729 GN=GLI1 
+PE=3 SV=1
+Length=1276
+
+ Score = 72.0 bits (175),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 40/101 (40%), Positives = 55/101 (54%), Gaps = 9/101 (9%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHV-RVHTK  4921
+             K ++CTFEGC + YS   NL+TH ++H GE  +VC  EGC KAF  +     H  R H+ 
+Sbjct  300   KPHKCTFEGCNKAYSRLENLKTHLRSHTGEKPYVCEHEGCNKAFSNASDRAKHQNRTHSN  359
+
+Query  4922  EKPFECDVQGCEKAF---NTLYR*GGVQHTVQVRGCSTHCT  5035
+             EKP+ C + GC K +   ++L +     H   V G   H T
+Sbjct  360   EKPYVCKIPGCTKRYTDPSSLRK-----HVKTVHGPDAHVT  395
+
+
+>A0A674GD57 Zic family member 5 OS=Taeniopygia guttata OX=59729 GN=ZIC5 PE=3 
+SV=1
+Length=579
+
+ Score = 69.3 bits (168),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 29/74 (39%), Positives = 46/74 (62%), Gaps = 0/74 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             K + C F GC + ++ + NL+ H++TH GE  F C  +GC + F  S   K H  VHT +
+Sbjct  401   KPFPCPFPGCGKVFARSENLKIHKRTHTGEKPFKCEFDGCERKFANSSDRKKHSHVHTSD  460
+
+Query  4925  KPFECDVQGCEKAF  4966
+             KP+ C ++GC+K++
+Sbjct  461   KPYYCKIRGCDKSY  474
+
+
+>H0Z4D5 GLIS family zinc finger 3 OS=Taeniopygia guttata OX=59729 GN=GLIS3 
+PE=3 SV=2
+Length=772
+
+ Score = 68.6 bits (166),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 30/74 (41%), Positives = 42/74 (57%), Gaps = 0/74 (0%)
+ Frame = +2
+
+Query  4745  KRYQCTFEGCPRTYSTAGNLRTHQKTHRGEYTFVCNQEGCGKAFLTSYSLKIHVRVHTKE  4924
+             K  +CTFEGC + +S   NL+ H ++H GE  ++C   GC KAF  S     H R H   
+Sbjct  411   KPNKCTFEGCKKAFSRLENLKIHLRSHTGEKPYLCQHPGCQKAFSNSSDRAKHQRTHLDT  470
+
+Query  4925  KPFECDVQGCEKAF  4966
+             KP+ C++ GC K +
+Sbjct  471   KPYACEIPGCSKRY  484
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 28351791480
+
+
+Query= pcadapt SNP_55945 maker-chr23-snap-gene-32.0: CM027528.1 Setophaga
+coronata coronata isolate EE26A12 chromosome 23, whole genome
+shotgun sequence
+
+Length=13443
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+H0ZX01 Phosphoinositide 5-phosphatase OS=Taeniopygia guttata OX=5...  246        8e-67
+H0Z3Q6 Phosphoinositide 5-phosphatase OS=Taeniopygia guttata OX=5...  123        2e-27
+
+
+>H0ZX01 Phosphoinositide 5-phosphatase OS=Taeniopygia guttata OX=59729 
+GN=INPP5B PE=3 SV=2
+Length=866
+
+ Score = 246 bits (627),  Expect = 8e-67, Method: Compositional matrix adjust.
+ Identities = 123/184 (67%), Positives = 129/184 (70%), Gaps = 51/184 (28%)
+ Frame = +2
+
+Query  10940  IHFKDVKYMKLQVERFTIRNGQVPCQFEFISKPDENTYCKEWLIANPSKGFllsgellll  11119
+              IHF+DVKYM+LQVER TIRNGQVPCQF+FISKPDE TYCKEWL ANPSKGF         
+Sbjct  547    IHFEDVKYMQLQVERITIRNGQVPCQFQFISKPDEETYCKEWLTANPSKGF---------  597
+
+Query  11120  sRVHELMLFPSGLVPSTLLRILCLFAGCRFHTACN*VWVFYHLLADAEITVELEVFVNKS  11299
+                                                        LL+DAEITVELEVFVNKS
+Sbjct  598    ------------------------------------------LLSDAEITVELEVFVNKS  615
+
+Query  11300  TATRLNSGEEKLEDILVLHLIRGKDYFLSVTGNYLPSCFGSPIHTLCYMREPIQDMSAES  11479
+              TATRLNSGEEKLEDILVLHL+ GKDYFLS+TGNYLPSCFGSPIHTLCYMREPIQDMSAES
+Sbjct  616    TATRLNSGEEKLEDILVLHLVNGKDYFLSITGNYLPSCFGSPIHTLCYMREPIQDMSAES  675
+
+Query  11480  IRRL  11491
+              IRRL
+Sbjct  676    IRRL  679
+
+
+ Score = 139 bits (350),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 65/76 (86%), Positives = 66/76 (87%), Gaps = 0/76 (0%)
+ Frame = +2
+
+Query  7574  TDIFVFQGNKGGVAIRFKFHNTSVCIVNSHLAAHTEEYERRNQDFKDICSRMQFCQSDPN  7753
+             T I    GNKG VAIRFKFHNTSVCIVNSHLAAHTEEYERRNQDFKDICSRMQFCQSDPN
+Sbjct  321   TGIMGRMGNKGAVAIRFKFHNTSVCIVNSHLAAHTEEYERRNQDFKDICSRMQFCQSDPN  380
+
+Query  7754  LPPLTIGKHEYASPLG  7801
+             LPPLTIGKH+    LG
+Sbjct  381   LPPLTIGKHDVILWLG  396
+
+
+ Score = 107 bits (268),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 51/58 (88%), Positives = 57/58 (98%), Gaps = 0/58 (0%)
+ Frame = +2
+
+Query  5096  RQNKVKAEVRTEQVRASRVMASNKASILSEPKFGLRDTIVKSQLLQMQDSYTHIQNYR  5269
+             RQ+K+K+EVRTEQVRASRVMASNKAS+LSEPKFGLRDTIVKSQL+Q +DSYTHIQNYR
+Sbjct  157   RQSKLKSEVRTEQVRASRVMASNKASMLSEPKFGLRDTIVKSQLVQKEDSYTHIQNYR  214
+
+
+ Score = 100 bits (249),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 44/49 (90%), Positives = 47/49 (96%), Gaps = 0/49 (0%)
+ Frame = +1
+
+Query  9586  SEKCRVPAWCDRILWKGQNIAQLSYRSHMALKLSDHKPVSSVFDIGVSM  9732
+             SEKCRVPAWCDRILWKGQ +AQLSYRSHMALKLSDHKPVSSVFD+GV +
+Sbjct  464   SEKCRVPAWCDRILWKGQRVAQLSYRSHMALKLSDHKPVSSVFDVGVKV  512
+
+
+ Score = 89.0 bits (219),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 41/44 (93%), Positives = 41/44 (93%), Gaps = 0/44 (0%)
+ Frame = +1
+
+Query  6517  SFQELDLTKEAFFFNDTPKEEEWFKAVTDSLHPDAKYAKVNVAF  6648
+              FQELDLTKEAFFFNDTPKEEEWFKAVTDSLHPDAKYAKVNV  
+Sbjct  248   GFQELDLTKEAFFFNDTPKEEEWFKAVTDSLHPDAKYAKVNVKL  291
+
+
+ Score = 87.4 bits (215),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 41/49 (84%), Positives = 44/49 (90%), Gaps = 0/49 (0%)
+ Frame = +3
+
+Query  12492  VGSNHSVAEALLLFLESLPEPVICCRFYSSCLESASNYSQSCQVLLAAP  12638
+              +GSNHSVAEALLLFLESLPEPVICCRFYSSCLESASNY  SCQ++   P
+Sbjct  746    LGSNHSVAEALLLFLESLPEPVICCRFYSSCLESASNYGLSCQIISDLP  794
+
+
+ Score = 86.7 bits (213),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 35/35 (100%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  6031  RVFVGTYNVNGQSPTESLQPWLRCDAEPPDIYCVG  6135
+             RVFVGTYNVNGQSPTESLQPWLRCDAEPPDIYCVG
+Sbjct  214   RVFVGTYNVNGQSPTESLQPWLRCDAEPPDIYCVG  248
+
+
+ Score = 85.9 bits (211),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 35/38 (92%), Positives = 37/38 (97%), Gaps = 0/38 (0%)
+ Frame = +3
+
+Query  11682  TLMPVDMTGDPAQDERPMDIPKELWMMVDHLNRNASQQ  11795
+              TLMPVDM+ DPAQDE+PMDIPKELWMMVDHLNRNASQQ
+Sbjct  680    TLMPVDMSDDPAQDEKPMDIPKELWMMVDHLNRNASQQ  717
+
+
+ Score = 78.6 bits (192),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 39/40 (98%), Positives = 39/40 (98%), Gaps = 0/40 (0%)
+ Frame = +3
+
+Query  7197  QVKLVRLVGIMLLLYVKAELALNISEVEVETVGTGIMGRM  7316
+              VKLVRLVGIMLLLYVKAELALNISEVEVETVGTGIMGRM
+Sbjct  288   NVKLVRLVGIMLLLYVKAELALNISEVEVETVGTGIMGRM  327
+
+
+ Score = 78.2 bits (191),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 33/34 (97%), Positives = 33/34 (97%), Gaps = 0/34 (0%)
+ Frame = +1
+
+Query  8563  RQMKANAAFEGFTEGEISFQPTYKYDAGCDDWDT  8664
+             RQMKANAAFEGFTEGEISFQPTYKYDAG DDWDT
+Sbjct  430   RQMKANAAFEGFTEGEISFQPTYKYDAGSDDWDT  463
+
+
+ Score = 76.3 bits (186),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 39/44 (89%), Positives = 40/44 (91%), Gaps = 0/44 (0%)
+ Frame = +3
+
+Query  10194  SVCPFQVKVVNEELYRKAFEEIVRSLDKLENANIPSVTLSRREV  10325
+              SV    VKVVNEELYRKAFEEIVRSLDKLENANIPSVTLSRRE+
+Sbjct  504    SVFDVGVKVVNEELYRKAFEEIVRSLDKLENANIPSVTLSRREI  547
+
+
+ Score = 74.3 bits (181),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 36/37 (97%), Positives = 36/37 (97%), Gaps = 0/37 (0%)
+ Frame = +3
+
+Query  8289  VILWLGDLNYRLEELDVAKVKQLVEEKAFPELCQYDQ  8399
+             VILWLGDLNYRLEELDVAKVKQLVEEKAF ELCQYDQ
+Sbjct  391   VILWLGDLNYRLEELDVAKVKQLVEEKAFLELCQYDQ  427
+
+
+ Score = 72.8 bits (177),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 32/36 (89%), Positives = 34/36 (94%), Gaps = 0/36 (0%)
+ Frame = +2
+
+Query  13334  QIIADLPVFHRNVFEYLMAFLRELLKNSGKNHLDVN  13441
+              QII+DLP  H+NVFEYLMAFLRELLKNSGKNHLDVN
+Sbjct  788    QIISDLPACHKNVFEYLMAFLRELLKNSGKNHLDVN  823
+
+
+>H0Z3Q6 Phosphoinositide 5-phosphatase OS=Taeniopygia guttata OX=59729 
+GN=OCRL PE=3 SV=2
+Length=1295
+
+ Score = 123 bits (308),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 68/191 (36%), Positives = 99/191 (52%), Gaps = 55/191 (29%)
+ Frame = +2
+
+Query  10946  FKDVKYMKLQVERFTI-RNGQVPCQFEFISKPDENTYCKEWLIANPSKGFllsgelllls  11122
+              F++VK+ +LQ ++F I  NGQV C F FI K +++ YCK WL A P +G+          
+Sbjct  967    FENVKFRQLQKQKFQITNNGQVTCHFSFIPKLNDSHYCKPWLRAEPCEGY----------  1016
+
+Query  11123  RVHELMLFPSGLVPSTLLRILCLFAGCRFHTACN*VWVFYHLLADAEITVELEVFVNKST  11302
+                                                       L  D    + L+V+V+K +
+Sbjct  1017   -----------------------------------------LEPDESTEISLDVYVSKDS  1035
+
+Query  11303  ATRLNSGEEKLEDILVLHLIRGKDYFLSVTGNYLPSCFGSPIHTLCYMREPIQDMSAESI  11482
+               T LNSGE+K+EDILVLHL RGKDYFL+++G YLPSCFG+ +  LC M+ PI+++    +
+Sbjct  1036   VTLLNSGEDKIEDILVLHLDRGKDYFLTISGTYLPSCFGTSLEALCRMKRPIREV---PV  1092
+
+Query  11483  RRLVS*RQDSL  11515
+               +L+   +DS 
+Sbjct  1093   TKLIDLEEDSF  1103
+
+
+ Score = 92.4 bits (228),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 46/77 (60%), Positives = 54/77 (70%), Gaps = 1/77 (1%)
+ Frame = +2
+
+Query  7574  TDIFVFQGNKGGVAIRFKFHNTSVCIVNSHLAAHTEEYERRNQDFKDICSRMQF-CQSDP  7750
+             T +    GNKGGVAIRF FHNT+ C+VNSHLAAH E++ERRNQD+KDIC+RM F   S  
+Sbjct  738   TGVMGKMGNKGGVAIRFMFHNTTFCVVNSHLAAHVEDFERRNQDYKDICARMSFLIPSSD  797
+
+Query  7751  NLPPLTIGKHEYASPLG  7801
+              L  L I KH+    LG
+Sbjct  798   CLSELNIMKHDVVIWLG  814
+
+
+ Score = 80.5 bits (197),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 37/54 (69%), Positives = 43/54 (80%), Gaps = 2/54 (4%)
+ Frame = +1
+
+Query  9586  SEKCRVPAWCDRILWKGQNIAQLSYRSHMALKLSDHKPVSSVFDIGVSMAVLDE  9747
+             S KCRVPAWCDRILW+G N++QL Y  HM LK SDHKPVS++F IGV   V+DE
+Sbjct  882   SGKCRVPAWCDRILWRGGNVSQLRYCGHMELKTSDHKPVSALFHIGVK--VVDE  933
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 34405497462
+
+
+Query= pcadapt SNP_55945 maker-chr23-snap-gene-32.3: CM027528.1 Setophaga
+coronata coronata isolate EE26A12 chromosome 23, whole genome
+shotgun sequence
+
+Length=23114
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+A0A674HS23 EPH receptor A10 OS=Taeniopygia guttata OX=59729 GN=YR...  453        3e-135
+H0ZQ33 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX...  355        9e-102
+H0ZTE5 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX...  322        2e-91 
+H0ZBM3 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX...  314        3e-88 
+A0A674H9Q0 Receptor protein-tyrosine kinase OS=Taeniopygia guttat...  310        5e-87 
+H1A3R4 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX...  308        2e-86 
+H0ZTF0 EPH receptor A6 OS=Taeniopygia guttata OX=59729 GN=EPHA6 P...  307        3e-86 
+H0Z935 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX...  271        4e-74 
+A0A674HMT5 Receptor protein-tyrosine kinase OS=Taeniopygia guttat...  265        5e-72 
+H0ZJI7 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX...  249        5e-67 
+H0ZSP2 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX...  240        3e-64 
+H0YV01 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX...  238        4e-63 
+A0A674H987 Receptor protein-tyrosine kinase OS=Taeniopygia guttat...  223        1e-58 
+A0A674GPE4 Collagen alpha-1(I) chain-like OS=Taeniopygia guttata ...  107        2e-22 
+A0A674GPI3 Eph LBD domain-containing protein OS=Taeniopygia gutta...  92.0       2e-20 
+
+
+>A0A674HS23 EPH receptor A10 OS=Taeniopygia guttata OX=59729 GN=YRDC PE=4 
+SV=1
+Length=1004
+
+ Score = 453 bits (1166),  Expect = 3e-135, Method: Compositional matrix adjust.
+ Identities = 217/239 (91%), Positives = 224/239 (94%), Gaps = 4/239 (2%)
+ Frame = +2
+
+Query  1427  WEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  1606
+             WEEISGVDETY+PIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG
+Sbjct  65    WEEISGVDETYRPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  124
+
+Query  1607  VTSTCKETFNLYYVESDSDLGWSVHEGKHTKIDTIAADESFTQGDLGERKMKLNTELREI  1786
+             VTSTCKETFNLYYVESDSDLG SV + +HTKIDTIAADESFTQGDLGERKMKLNTELREI
+Sbjct  125   VTSTCKETFNLYYVESDSDLGRSVRDSRHTKIDTIAADESFTQGDLGERKMKLNTELREI  184
+
+Query  1787  GHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEVQGTC  1966
+             GHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLA+FPDTVAETAFVTLVEV+GTC
+Sbjct  185   GHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLAMFPDTVAETAFVTLVEVKGTC  244
+
+Query  1967  VAHAEEDVDNPPRMHCSAEGEWLVPIGKCMCSPGFEEKDGACRGKSGHWCPGSFCLSVH  2143
+             VAHAE DVDNPPRMHCSAEGEWLVPIGKCMCSPGFEEKDG CR       PG + LS+ 
+Sbjct  245   VAHAEVDVDNPPRMHCSAEGEWLVPIGKCMCSPGFEEKDGGCRA----CLPGFYKLSLR  299
+
+
+ Score = 205 bits (521),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 99/113 (88%), Positives = 103/113 (91%), Gaps = 0/113 (0%)
+ Frame = +1
+
+Query  11371  PPSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGFV  11550
+              PPSAPR+LVYSLRQSSLVL WSAPADAGGRSDLTYSLWC RCPA P G CQ CG+SVGFV
+Sbjct  341    PPSAPRDLVYSLRQSSLVLQWSAPADAGGRSDLTYSLWCGRCPAVPAGRCQHCGSSVGFV  400
+
+Query  11551  PQQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGHT  11709
+              PQQTGLVERT TL+NLLPHV YTIRVLALNGVSA+SPL GQQYAEV VSTGHT
+Sbjct  401    PQQTGLVERTVTLVNLLPHVNYTIRVLALNGVSALSPLAGQQYAEVTVSTGHT  453
+
+
+ Score = 93.2 bits (230),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 42/44 (95%), Positives = 44/44 (100%), Gaps = 0/44 (0%)
+ Frame = +3
+
+Query  22518  KIPTRRTYIDPSTCEDPMQAVHLFAKELDNASIKIERIIKTGKF  22649
+              KIPTRRTYIDPSTCEDPMQAVHLFAKELDNASIKIERII+TG+F
+Sbjct  606    KIPTRRTYIDPSTCEDPMQAVHLFAKELDNASIKIERIIRTGEF  649
+
+
+ Score = 85.5 bits (210),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 39/42 (93%), Positives = 41/42 (98%), Gaps = 0/42 (0%)
+ Frame = +3
+
+Query  17004  VPTPVTDIRTDRVEQKSVTLSWQEPGLLTANGTEYEVKYFEK  17129
+              VPTPVTDIRTD+VEQKSV+LSWQEPG LTANGTEYEVKYFEK
+Sbjct  454    VPTPVTDIRTDKVEQKSVSLSWQEPGFLTANGTEYEVKYFEK  495
+
+
+ Score = 80.1 bits (196),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 52/53 (98%), Positives = 52/53 (98%), Gaps = 0/53 (0%)
+ Frame = +2
+
+Query  9896   ACPPGFYKlslrlplcspcpEHSFTHEEASTFCLCQTNYSRSPSDPPSASCTR  10054
+              AC PGFYKLSLRLPLCSPCPEHSFTHEEASTFCLCQTNYSRSPSDPPSASCTR
+Sbjct  288    ACLPGFYKLSLRLPLCSPCPEHSFTHEEASTFCLCQTNYSRSPSDPPSASCTR  340
+
+
+ Score = 72.8 bits (177),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 51/55 (93%), Positives = 52/55 (95%), Gaps = 3/55 (5%)
+ Frame = +1
+
+Query  19294  QDQRDQsystvkttstavtvNNLKPGTLYIFQIRTSSSPD---YNPGIEVETLAE  19449
+              +DQRDQSYSTVKTTSTAVTVNNLKPGTLYIFQIRTSSSPD   YNPGIEVETLAE
+Sbjct  495    KDQRDQSYSTVKTTSTAVTVNNLKPGTLYIFQIRTSSSPDYGNYNPGIEVETLAE  549
+
+
+>H0ZQ33 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHA7 PE=4 SV=2
+Length=1020
+
+ Score = 355 bits (910),  Expect = 9e-102, Method: Compositional matrix adjust.
+ Identities = 160/222 (72%), Positives = 190/222 (86%), Gaps = 0/222 (0%)
+ Frame = +2
+
+Query  1427  WEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  1606
+             WEEISG+DE Y PIRTYQVC VME NQNNWL+T WIA+ + QRIF+ELKFTLRDCNS+PG
+Sbjct  55    WEEISGLDENYTPIRTYQVCQVMESNQNNWLRTNWIAKSNAQRIFVELKFTLRDCNSLPG  114
+
+Query  1607  VTSTCKETFNLYYVESDSDLGWSVHEGKHTKIDTIAADESFTQGDLGERKMKLNTELREI  1786
+             V  TCKETFNLYY E+D D G ++ E ++ KIDTIAADESFTQGDLGERKMKLNTE+REI
+Sbjct  115   VLGTCKETFNLYYYETDYDTGRNIRENQYVKIDTIAADESFTQGDLGERKMKLNTEVREI  174
+
+Query  1787  GHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEVQGTC  1966
+             G LSK+GF+L FQDVGAC+ALVSV+VYYKKC S ++NLA+FPDTV  + F +LVEV+GTC
+Sbjct  175   GPLSKKGFYLAFQDVGACIALVSVKVYYKKCWSIIENLAIFPDTVTGSEFSSLVEVRGTC  234
+
+Query  1967  VAHAEEDVDNPPRMHCSAEGEWLVPIGKCMCSPGFEEKDGAC  2092
+             V+ AEE+ +N P+MHCSAEGEWLVPIGKC+C  G+++K   C
+Sbjct  235   VSSAEEEAENSPKMHCSAEGEWLVPIGKCICKAGYQQKGDTC  276
+
+
+ Score = 116 bits (290),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 56/121 (46%), Positives = 85/121 (70%), Gaps = 4/121 (3%)
+ Frame = +1
+
+Query  11350  DPLFLA--GPPSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQ  11523
+              DP ++A   PPSAP+NL++++ Q+++ L WS PAD GGRSD+TY + C RC +   G C 
+Sbjct  322    DPPYVACTRPPSAPQNLIFNINQTTVSLEWSPPADNGGRSDVTYRILCKRC-SWEQGECV  380
+
+Query  11524  QCGTSVGFVPQQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTG  11703
+               CG+++G++PQQTGLV+   T+++LL H  YT  V A+NGVS +S    + +A V+++TG
+Sbjct  381    PCGSNIGYMPQQTGLVDNYVTVMDLLAHANYTFEVEAVNGVSDLSR-SQRLFAAVSITTG  439
+
+Query  11704  H  11706
+               
+Sbjct  440    Q  440
+
+
+>H0ZTE5 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHA3 PE=4 SV=2
+Length=937
+
+ Score = 322 bits (825),  Expect = 2e-91, Method: Compositional matrix adjust.
+ Identities = 152/225 (68%), Positives = 185/225 (82%), Gaps = 3/225 (1%)
+ Frame = +2
+
+Query  1424  QWEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIP  1603
+             QWEEISGVDE Y PIRTYQVCNVM+ +QNNWL+T WI R   Q+I++ELKFTLRDCNSIP
+Sbjct  3     QWEEISGVDEHYTPIRTYQVCNVMDHSQNNWLRTNWIPRNSAQKIYVELKFTLRDCNSIP  62
+
+Query  1604  GVTSTCKETFNLYYVESDSDLGWSVHEGKHTKIDTIAADESFTQGDLGERKMKLNTELRE  1783
+              V  TCKETFNLYY+ESD D      E + TKIDTIAADESFTQ DLG+R +KLNTE+RE
+Sbjct  63    LVLGTCKETFNLYYMESDDDHLVKFKEHQFTKIDTIAADESFTQMDLGDRILKLNTEIRE  122
+
+Query  1784  IGHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEVQGT  1963
+             +G +S++GF+L FQDVGACVALVSVRVY+KKC  TV+NLA+FPDTV   +  +LVEV+G+
+Sbjct  123   VGPISRKGFYLAFQDVGACVALVSVRVYFKKCPFTVKNLAMFPDTVPMDS-QSLVEVRGS  181
+
+Query  1964  CVAHAEEDVDNPPRMHCSAEGEWLVPIGKCMCSPGFEEKDGACRG  2098
+             CV H++E  +  P+M+CS EGEWLVPIGKC+C+PG+EE+  AC+ 
+Sbjct  182   CVNHSKE--EEAPKMYCSTEGEWLVPIGKCLCNPGYEERGFACQA  224
+
+
+ Score = 110 bits (276),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 48/112 (43%), Positives = 77/112 (69%), Gaps = 1/112 (1%)
+ Frame = +1
+
+Query  11371  PPSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGFV  11550
+              PPSAPRN++ ++ ++S++L WS P D GGR D+T+++ C +C  G    C+ C  +V F+
+Sbjct  277    PPSAPRNVISNINETSVILDWSWPLDTGGRKDVTFNIVCKKCSGGGGRQCEPCSDNVRFL  336
+
+Query  11551  PQQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGH  11706
+              P+Q+GL   + T+++LL H  YT  + ALNGVSA+S L  +Q+A V+++T  
+Sbjct  337    PRQSGLTNTSVTVVDLLAHTNYTFEIDALNGVSALSSL-SRQFAAVSITTNQ  387
+
+
+>H0ZBM3 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHA4 PE=4 SV=2
+Length=1011
+
+ Score = 314 bits (804),  Expect = 3e-88, Method: Compositional matrix adjust.
+ Identities = 145/230 (63%), Positives = 185/230 (80%), Gaps = 3/230 (1%)
+ Frame = +2
+
+Query  1427  WEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  1606
+             WEE+S +DE   PIRTYQVCNVMEP+QNNWL+T WI R   QR++IE+KFTLRDCNS+PG
+Sbjct  79    WEEVSIMDEKNTPIRTYQVCNVMEPSQNNWLRTDWIPREGAQRVYIEIKFTLRDCNSLPG  138
+
+Query  1607  VTSTCKETFNLYYVESDSDLGWSVHEGKHTKIDTIAADESFTQGDLGERKMKLNTELREI  1786
+             V  TCKETFNLYY ES++D    + E +  KIDTIAADESFTQ D+G+R MKLNTE+R++
+Sbjct  139   VMGTCKETFNLYYYESNNDKERFIRESQFAKIDTIAADESFTQVDIGDRIMKLNTEIRDV  198
+
+Query  1787  GHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEVQGTC  1966
+             G LSK+GF+L FQDVGAC+ALVSVRV+YKKC  TV+NLA FPDT+      +LVEV+G+C
+Sbjct  199   GPLSKKGFYLAFQDVGACIALVSVRVFYKKCPLTVRNLAQFPDTITGADTSSLVEVRGSC  258
+
+Query  1967  VAHAEEDVDNPPRMHCSAEGEWLVPIGKCMCSPGFEEKDGACRG-KSGHW  2113
+             V ++EE   + P+M+C A+GEWLVPIG C+C+ G+EE++G C+  K G++
+Sbjct  259   VNNSEE--KDVPKMYCGADGEWLVPIGNCLCNAGYEERNGECQACKIGYY  306
+
+
+ Score = 103 bits (256),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 48/112 (43%), Positives = 69/112 (62%), Gaps = 1/112 (1%)
+ Frame = +1
+
+Query  11371  PPSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGFV  11550
+              PPSAP++L+ ++ ++S+ L WS P + GGR D++Y++ C RC AG P  C+ CG+ V F 
+Sbjct  353    PPSAPQHLISNVNETSVNLEWSPPQNKGGREDISYNVVCKRCGAGEPSRCRSCGSGVHFS  412
+
+Query  11551  PQQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGH  11706
+              PQQ GL     ++ +LL H  YT  V A+NGVS  +P    Q   V V+T  
+Sbjct  413    PQQNGLKSTKVSITDLLAHTNYTFEVWAVNGVSKQNP-SQDQAVSVTVTTNQ  463
+
+
+>A0A674H9Q0 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHA5 PE=4 SV=1
+Length=1020
+
+ Score = 310 bits (795),  Expect = 5e-87, Method: Compositional matrix adjust.
+ Identities = 149/243 (61%), Positives = 180/243 (74%), Gaps = 8/243 (3%)
+ Frame = +2
+
+Query  1427  WEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  1606
+             WEEI  VDE Y PI TYQVC VME NQNNWL T WI+     RIFIELKFTLRDCNS+PG
+Sbjct  65    WEEIGEVDENYAPIHTYQVCKVMEQNQNNWLLTSWISNEGASRIFIELKFTLRDCNSLPG  124
+
+Query  1607  VTSTCKETFNLYYVESDSDLGWSVHEGKHTKIDTIAADESFTQGDLGERKMKLNTELREI  1786
+                TCKETFN+YY ESD + G ++ E ++ KIDTIAADESFT+ DLG+R MKLNTE+R++
+Sbjct  125   GLGTCKETFNMYYFESDDEDGRNIKENQYIKIDTIAADESFTELDLGDRVMKLNTEVRDV  184
+
+Query  1787  GHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEVQGTC  1966
+             G L+K+GF+L FQDVGAC+ALVSVRVYYKKC S ++NLA FPDT+       L+EV G C
+Sbjct  185   GPLTKKGFYLAFQDVGACIALVSVRVYYKKCPSVIRNLARFPDTITGADSSQLLEVSGVC  244
+
+Query  1967  VAHAEEDVDNPPRMHCSAEGEWLVPIGKCMCSPGFEEKDGACRGKSGHWC-PGSFCLSVH  2143
+             + H+    +  P+MHCSAEGEWLVPIGKC+C  G+EEK+  C+      C PG F  S H
+Sbjct  245   INHSV--TEEAPKMHCSAEGEWLVPIGKCLCKAGYEEKNNTCQ-----VCRPGFFKASPH  297
+
+Query  2144  AAA  2152
+             + +
+Sbjct  298   SPS  300
+
+
+ Score = 101 bits (252),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 47/112 (42%), Positives = 72/112 (64%), Gaps = 2/112 (2%)
+ Frame = +1
+
+Query  11371  PPSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGFV  11550
+              PPSAPR+ + ++ ++S+ L W  PAD GGR D++Y + C +C +   G C+ CG  V ++
+Sbjct  339    PPSAPRSAISNVNETSVFLEWIPPADTGGRKDVSYYIACKKC-SSHSGLCEACGGHVRYL  397
+
+Query  11551  PQQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGH  11706
+              PQQTGL   +  +++LL H  YT  + A+NGVS  +P G +Q+  VNV+T  
+Sbjct  398    PQQTGLKNTSVMMVDLLAHTNYTFEIEAVNGVSDQNP-GARQFVSVNVTTNQ  448
+
+
+>H1A3R4 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHA8 PE=4 SV=2
+Length=984
+
+ Score = 308 bits (788),  Expect = 2e-86, Method: Compositional matrix adjust.
+ Identities = 142/222 (64%), Positives = 176/222 (79%), Gaps = 2/222 (1%)
+ Frame = +2
+
+Query  1427  WEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  1606
+             W+ I+ +DE + PI TYQVCNVM PNQNNWL+T W+ R   +R++ E+KFTLRDCNS+PG
+Sbjct  51    WDSINEMDEFFSPIHTYQVCNVMTPNQNNWLRTNWVQRDGARRVYAEIKFTLRDCNSMPG  110
+
+Query  1607  VTSTCKETFNLYYVESDSDLGWSVHEGKHTKIDTIAADESFTQGDLGERKMKLNTELREI  1786
+             V  TCKETFNLYY+ESD DLG S  E +  KIDTIAADESFT  DLG R++KLNTE+R +
+Sbjct  111   VLGTCKETFNLYYMESDRDLGSSTRESQFLKIDTIAADESFTNVDLGVRRLKLNTEVRGV  170
+
+Query  1787  GHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEVQGTC  1966
+             G LSKRGF+L FQD+GAC+A+VSVRVYYKKC +TV+NLA F + V      +LVEV+G C
+Sbjct  171   GPLSKRGFYLAFQDIGACIAIVSVRVYYKKCPATVRNLASFSEAVTGADSSSLVEVRGEC  230
+
+Query  1967  VAHAEEDVDNPPRMHCSAEGEWLVPIGKCMCSPGFEEKDGAC  2092
+             V H+EE   + P+M+CSAEGEWLVPIGKC+CS G+EE+  +C
+Sbjct  231   VGHSEE--RDTPKMYCSAEGEWLVPIGKCVCSAGYEEQRDSC  270
+
+
+ Score = 99.4 bits (246),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 51/112 (46%), Positives = 71/112 (63%), Gaps = 2/112 (2%)
+ Frame = +1
+
+Query  11371  PPSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGFV  11550
+              PPSAP NL+ S+  +S+ L W  P D GGR+D+ Y++ C RC AG  G C+ CG+ + FV
+Sbjct  325    PPSAPVNLISSVNGTSVTLEWGPPLDKGGRADIVYNVLCRRC-AGDAGPCEACGSGIRFV  383
+
+Query  11551  PQQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGH  11706
+              PQQ  LV+   T+ NLL H  Y+  V A+NGVS +S L  ++ A  N++T  
+Sbjct  384    PQQMSLVQGALTVTNLLAHTNYSFWVEAVNGVSDLS-LESRRAAVANITTNQ  434
+
+
+>H0ZTF0 EPH receptor A6 OS=Taeniopygia guttata OX=59729 GN=EPHA6 PE=4 
+SV=2
+Length=965
+
+ Score = 307 bits (787),  Expect = 3e-86, Method: Compositional matrix adjust.
+ Identities = 139/222 (63%), Positives = 180/222 (81%), Gaps = 2/222 (1%)
+ Frame = +2
+
+Query  1427  WEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  1606
+             W+ I+ +DE  +PI TYQVCNVMEPNQNNWLQT W++R   Q+I++E+KFTLRDCNSIP 
+Sbjct  57    WDAITEMDEHNRPIHTYQVCNVMEPNQNNWLQTNWVSRDAAQKIYVEMKFTLRDCNSIPW  116
+
+Query  1607  VTSTCKETFNLYYVESDSDLGWSVHEGKHTKIDTIAADESFTQGDLGERKMKLNTELREI  1786
+             V  TCKETFNLYY+ESD   G      ++TKIDTIAADESFTQ DLG+R +KLNTE+RE+
+Sbjct  117   VLGTCKETFNLYYMESDEPHGVKFKPNQYTKIDTIAADESFTQMDLGDRILKLNTEVREV  176
+
+Query  1787  GHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEVQGTC  1966
+             G ++K+GF+L FQD+GAC+ALVSVRVYYKKC  TV+NLA+FPDT+      +LVEV+G+C
+Sbjct  177   GPINKKGFYLAFQDIGACIALVSVRVYYKKCPFTVRNLAMFPDTIPRVDSSSLVEVRGSC  236
+
+Query  1967  VAHAEEDVDNPPRMHCSAEGEWLVPIGKCMCSPGFEEKDGAC  2092
+             V  AEE   + P+++C A+G+WLVP+G+C+CS G+EE +G+C
+Sbjct  237   VKSAEE--RDTPKLYCGADGDWLVPLGRCICSVGYEELEGSC  276
+
+
+ Score = 106 bits (264),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 47/112 (42%), Positives = 72/112 (64%), Gaps = 2/112 (2%)
+ Frame = +1
+
+Query  11371  PPSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGFV  11550
+              PPSAPRN+V+++ +++L+L WS P+D GGR DLTYS+ C +C       C+ CG  + F+
+Sbjct  331    PPSAPRNVVFNINETALMLEWSPPSDTGGRKDLTYSVVCKKC-GSDASQCEICGGGIRFI  389
+
+Query  11551  PQQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGH  11706
+              P+ TGL   + T+L+ + HV YT  + A NGVS +S    +Q+  + V+T  
+Sbjct  390    PRHTGLTNSSVTVLDFVSHVNYTFEIEATNGVSELS-FSPKQFTAITVTTDQ  440
+
+
+>H0Z935 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHB1 PE=4 SV=2
+Length=1003
+
+ Score = 271 bits (693),  Expect = 4e-74, Method: Compositional matrix adjust.
+ Identities = 135/274 (49%), Positives = 182/274 (66%), Gaps = 19/274 (7%)
+ Frame = +2
+
+Query  1427  WEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  1606
+             WEE+SG DE    IRTYQVCNV EPNQNNWL T +I RR   RI+ E++FT+RDC+S+P 
+Sbjct  42    WEEVSGYDENLNTIRTYQVCNVFEPNQNNWLLTTFINRRGAHRIYTEMRFTVRDCSSLPN  101
+
+Query  1607  VTSTCKETFNLYYVESDSDLG------WSVHEGKHTKIDTIAADESFTQGDLGERKMKLN  1768
+             V  +CKETFNLYY E+DS +       W+  E  + K+DTIAADESF+Q D G R MK+N
+Sbjct  102   VPGSCKETFNLYYYETDSVIATKKSAFWT--EAPYLKVDTIAADESFSQVDFGGRLMKVN  159
+
+Query  1769  TELREIGHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLV  1948
+             TE+R  G L++ GF+L FQD GAC++L+SVRV++KKC S VQN A+FP+T+      +LV
+Sbjct  160   TEVRSFGPLTRNGFYLAFQDYGACMSLLSVRVFFKKCPSVVQNFAIFPETMTGAESTSLV  219
+
+Query  1949  EVQGTCVAHAEEDVDNPPRMHCSAEGEWLVPIGKCMCSPGFE-EKDGACRGKSGHWCPGS  2125
+               +GTC+ +AEE VD P +++C+ +GEW+VPIG+C C  G+E E + AC+      CP  
+Sbjct  220   TARGTCIPNAEE-VDVPIKLYCNGDGEWMVPIGRCTCKAGYEPENNVACKA-----CPAG  273
+
+Query  2126  FCLSVHAAARALWC----LSTVWITGIVFCRNVF  2215
+                +   A   + C     ST   + +  CRN +
+Sbjct  274   TFKASQGAGLCVPCPPNSRSTAEASPLCACRNGY  307
+
+
+ Score = 93.6 bits (231),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 43/111 (39%), Positives = 67/111 (60%), Gaps = 2/111 (2%)
+ Frame = +1
+
+Query  11374  PSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGFVP  11553
+              PS PRN++  + ++S++L W  P + GGR D+TY++ C +C +     C +C  +V FVP
+Sbjct  323    PSGPRNVISIVNETSIILEWHPPRETGGRDDVTYNIVCKKCRSDRRA-CSRCDDNVDFVP  381
+
+Query  11554  QQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGH  11706
+              +Q GL +    + NL  H  YT  + A+NGVS+ SP   QQ+  VN++T  
+Sbjct  382    RQLGLTDTRVFISNLWAHTPYTFEIQAVNGVSSKSPF-PQQHVSVNITTNQ  431
+
+
+>A0A674HMT5 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHB2 PE=4 SV=1
+Length=995
+
+ Score = 265 bits (676),  Expect = 5e-72, Method: Compositional matrix adjust.
+ Identities = 131/244 (54%), Positives = 170/244 (70%), Gaps = 13/244 (5%)
+ Frame = +2
+
+Query  1427  WEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  1606
+             WEE+SG DE    IRTYQVCNV E +QNNWL+T +I RR   RI +E+KF++RDC+SIP 
+Sbjct  51    WEEVSGYDENMNTIRTYQVCNVFESSQNNWLRTKYIRRRGAHRIHVEMKFSVRDCSSIPN  110
+
+Query  1607  VTSTCKETFNLYYVESDSDLGWSVH----EGKHTKIDTIAADESFTQGDLGERKMKLNTE  1774
+             V  +CKETFNLYY ESD D          E    K+DTIAADESF+Q DLG R MK+NTE
+Sbjct  111   VPGSCKETFNLYYFESDFDSATKTFPNWMENPWMKVDTIAADESFSQVDLGGRVMKINTE  170
+
+Query  1775  LREIGHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEV  1954
+             +R  G +SK GF+L FQD G C++L++VRV+Y+KC   +QN A+F +T++     +LV  
+Sbjct  171   VRSFGPVSKNGFYLAFQDYGGCMSLIAVRVFYRKCPRVIQNGAVFQETLSGAESTSLVAA  230
+
+Query  1955  QGTCVAHAEEDVDNPPRMHCSAEGEWLVPIGKCMCSPGFE--EKDGACRGKSGHWCP-GS  2125
+             +GTC+A+AEE VD P +++C+ +GEWLVPIG+CMC  G+E  E    CRG     CP G+
+Sbjct  231   RGTCIANAEE-VDVPIKLYCNGDGEWLVPIGRCMCRAGYESVENGTVCRG-----CPSGT  284
+
+Query  2126  FCLS  2137
+             F  S
+Sbjct  285   FKAS  288
+
+
+ Score = 99.8 bits (247),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 49/111 (44%), Positives = 70/111 (63%), Gaps = 2/111 (2%)
+ Frame = +1
+
+Query  11374  PSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGFVP  11553
+              PSAP+ ++ S+ ++SL+L WS P D+GGR DL Y++ C  C AG  G C +CG +V F P
+Sbjct  333    PSAPQAVISSVNETSLMLEWSPPRDSGGREDLVYNIICKSCGAG-RGACTRCGDNVQFAP  391
+
+Query  11554  QQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGH  11706
+              +Q GL E    + +LL H  YT  + A+NGV+  SP    Q+A VN++T  
+Sbjct  392    RQLGLTEPRIYISDLLAHTQYTFEIQAVNGVTDQSPF-SPQFASVNITTNQ  441
+
+
+>H0ZJI7 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHB3 PE=4 SV=2
+Length=991
+
+ Score = 249 bits (636),  Expect = 5e-67, Method: Compositional matrix adjust.
+ Identities = 121/241 (50%), Positives = 168/241 (70%), Gaps = 17/241 (7%)
+ Frame = +2
+
+Query  1427  WEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  1606
+             WEE+SG DE   PIRTYQVCNV E NQNNWL+T +I R+D QR+++ELKFT+RDCNSIP 
+Sbjct  55    WEEVSGYDEAMNPIRTYQVCNVREANQNNWLRTKFIQRQDVQRVYVELKFTVRDCNSIPN  114
+
+Query  1607  VTSTCKETFNLYYVESDSDLGWSVH----EGKHTKIDTIAADESFTQGDLGERKMKLNTE  1774
+             +  +CKETFNL+Y ESD+D   +      E  + K+DTIA DESF++ + G    ++NT+
+Sbjct  115   IPGSCKETFNLFYYESDTDSASANSPFWMENPYIKVDTIAPDESFSKLESG----RVNTK  170
+
+Query  1775  LREIGHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEV  1954
+             +R  G LSK GF+L FQD+GAC++L+SVR +YKKC +T+   A+FP+T+      +LV  
+Sbjct  171   VRSFGPLSKNGFYLAFQDLGACMSLISVRAFYKKCSNTIAGFAIFPETLTGAEPTSLVIA  230
+
+Query  1955  QGTCVAHAEEDVDNPPRMHCSAEGEWLVPIGKCMCSPGFEE--KDGACRGKSGHWC-PGS  2125
+              GTC+ +A E V  P +++C+ +GEW+VP+G C C+ G+E   KD  C+      C PG+
+Sbjct  231   PGTCIPNAVE-VSVPLKLYCNGDGEWMVPVGACTCAAGYEPAMKDTQCQA-----CGPGT  284
+
+Query  2126  F  2128
+             F
+Sbjct  285   F  285
+
+
+ Score = 100 bits (250),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 48/111 (43%), Positives = 68/111 (61%), Gaps = 2/111 (2%)
+ Frame = +1
+
+Query  11374  PSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGFVP  11553
+              PSAPRN++ ++ ++SLVL WS P D GGR DL Y++ C +C       C +C  +V FVP
+Sbjct  333    PSAPRNVISNVNETSLVLEWSEPQDTGGRDDLLYNVICKKCSV-ERRLCTRCDDNVEFVP  391
+
+Query  11554  QQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGH  11706
+              +Q GL ER   + NL+ H  YT  + A+NG+S  SP     +A VN++T  
+Sbjct  392    RQLGLTERRIYISNLMAHTQYTFEIQAVNGISNKSPY-PPHFASVNITTNQ  441
+
+
+>H0ZSP2 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHA1 PE=4 SV=2
+Length=962
+
+ Score = 240 bits (613),  Expect = 3e-64, Method: Compositional matrix adjust.
+ Identities = 121/230 (53%), Positives = 158/230 (69%), Gaps = 8/230 (3%)
+ Frame = +2
+
+Query  1463  PIRTYQVCNVM-EPNQNNWLQTGWIARRDG-QRIFIELKFTLRDCNSIPGVTSTCKETFN  1636
+             PI  YQ C+V+ E + ++WL+T WI R +   R+++ELKFT+RDC S  G   TCKETFN
+Sbjct  57    PIYMYQDCSVLSEGDTDHWLRTNWIYRGEAASRVYVELKFTVRDCKSFKGEVVTCKETFN  116
+
+Query  1637  LYYVESDSDLGWSVHEGKHTKIDTIAADESFTQGDLGERKMKLNTELREIGHLSKRGFHL  1816
+             LYY+ES+ D+G        TK++T+AAD SFT  D+    M+LNTE+  IG LS+RGF+L
+Sbjct  117   LYYMESEQDVGIQFRRPLFTKLNTVAADRSFTSRDIESGAMQLNTEVCPIGKLSRRGFYL  176
+
+Query  1817  GFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEVQGTCVAHAEEDVDN  1996
+              FQ+ GACVA+VSVRVYYK C   V+ LA FP+T+A +    L EV G CV +A E+V +
+Sbjct  177   AFQNSGACVAMVSVRVYYKTCPEAVRGLARFPETLAGSE--GLTEVPGVCVEYAAEEVGS  234
+
+Query  1997  PPRMHCSAEGEWLVPIGKCMCSPGFEEKDGAC----RGKSGHWCPGSFCL  2134
+             PPRMHCS +GEWLVP+G+C+C+ GFEE DG+C    RG   H      CL
+Sbjct  235   PPRMHCSTDGEWLVPVGRCLCAVGFEEVDGSCVACQRGFYRHSLDAKRCL  284
+
+
+ Score = 79.3 bits (194),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 46/112 (41%), Positives = 60/112 (54%), Gaps = 3/112 (3%)
+ Frame = +1
+
+Query  11371  PPSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGFV  11550
+              PPSAPRN+ +SL  + L L W  P+D GGR DLTY+++C RC       C+ C   V F 
+Sbjct  321    PPSAPRNVSFSLLGTQLSLWWQPPSDHGGRKDLTYTVFCQRCHF---LSCEPCEAGVVFS  377
+
+Query  11551  PQQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGH  11706
+              P  +GL +    +  L  +  YT  V A NGVS + P   +    V VS GH
+Sbjct  378    PSASGLTKPAVDVDGLEAYTNYTFTVEAHNGVSGMGPAPQRTAPAVWVSVGH  429
+
+
+>H0YV01 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHA2 PE=4 SV=2
+Length=1004
+
+ Score = 238 bits (606),  Expect = 4e-63, Method: Compositional matrix adjust.
+ Identities = 120/231 (52%), Positives = 152/231 (66%), Gaps = 9/231 (4%)
+ Frame = +2
+
+Query  1466  IRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPGVTS-TCKETFNLY  1642
+             I  Y VCNVME  Q NWL+T WI R   QRIFIEL+FT+RDCNS P     +CKETFNLY
+Sbjct  91    IYMYSVCNVMEGEQENWLRTNWIYRGVAQRIFIELQFTVRDCNSFPMAGGGSCKETFNLY  150
+
+Query  1643  YVESDSDLGWSVHEGKHTKIDTIAADESFTQGDLGERKMKLNTELREIGHLSKRGFHLGF  1822
+             Y ESD D G +  + +  KIDTIA DE   Q D   R +KLN E+R +G L ++GF+L F
+Sbjct  151   YAESDVDYGTNFQKRQFRKIDTIAPDEITVQEDFATRNVKLNVEVRSVGPLRRKGFYLAF  210
+
+Query  1823  QDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEVQGTCVAHAEEDVDNPP  2002
+             QD+GACVAL+SVRVYYK+C + V+ +A FP+TVA     TL EV+G+CV  A    +  P
+Sbjct  211   QDLGACVALLSVRVYYKRCPAVVRGMAQFPETVAGADSQTLAEVRGSCVDEAV--AEQAP  268
+
+Query  2003  RMHCSAEGEWLVPIGKCMCSPGFEEKDGACRGKSGHWC-PGSFCLSVHAAA  2152
+              +HC+A+GEWLVPIG+C C  GF+     C+      C PG+F  +V +  
+Sbjct  269   ALHCNADGEWLVPIGECQCRAGFQSLGDTCQA-----CPPGTFKAAVSSGG  314
+
+
+>A0A674H987 Receptor protein-tyrosine kinase OS=Taeniopygia guttata OX=59729 
+GN=EPHB6 PE=4 SV=1
+Length=1000
+
+ Score = 223 bits (568),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 115/249 (46%), Positives = 163/249 (65%), Gaps = 17/249 (7%)
+ Frame = +2
+
+Query  1427  WEEISGVDETYKPIRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIPG  1606
+             W+E+S +D+  + IRT+QVCNV EP QNNWL+T +I RR   R+ + L+F++RDC S+  
+Sbjct  54    WDEVSVLDDKKRLIRTFQVCNVAEPGQNNWLRTHFIERRGAHRVHVRLRFSVRDCASMRT  113
+
+Query  1607  VTSTCKETFNLYYVESDSDLG------WSVHEGKHTKIDTIAADESFTQGDLGERKMKLN  1768
+             V S+CKETF LYY +S++D+       W   EG  TK+DTIAADESF+Q D   + +K+N
+Sbjct  114   VASSCKETFTLYYHQSEADIASQDMPEW--REGPWTKVDTIAADESFSQVDSTGKVVKMN  171
+
+Query  1769  TELREIGHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLV  1948
+              ++R  G L+K GF+L FQD GAC++LV+V+V++ KC + V+  A FP+T A     +LV
+Sbjct  172   VKVRSFGPLTKHGFYLAFQDSGACMSLVAVQVFFYKCPAVVKGFASFPETFAGGERTSLV  231
+
+Query  1949  EVQGTCVAHAEEDV---DNPPRMHCSAEGEWLVPIGKCMCSPGFEEKDG--ACRGKSGHW  2113
+                GTCV +AEE      +  R+HC+ EGEW+V IG+C C  G++  D   AC+      
+Sbjct  232   ASPGTCVPNAEETSMTGSSSVRLHCNGEGEWMVAIGRCTCKAGYQPVDDERACQA----C  287
+
+Query  2114  CPGSFCLSV  2140
+              PG F +SV
+Sbjct  288   APGFFKVSV  296
+
+
+ Score = 96.7 bits (239),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 49/114 (43%), Positives = 68/114 (60%), Gaps = 1/114 (1%)
+ Frame = +1
+
+Query  11368  GPPSAPRNLVYSLRQSSLVLHWSAPADAGGRSDLTYSLWCARCPAGPPGHCQQCGTSVGF  11547
+              G PSAPR+L Y +  S+++L W  P D GGR D+ +++ C  CPAG  G C +CG SV F
+Sbjct  338    GIPSAPRDLSYEIIGSNVLLTWRLPKDLGGRKDVFFNVICKVCPAGSVGPCVRCGDSVQF  397
+
+Query  11548  VPQQTGLVERTATLLNLLPHVTYTIRVLALNGVSAVSPLGGQQYAEVNVSTGHT  11709
+               P+Q GL E    + NLL  V YT  + A+N V+ +S      +A +NVST  +
+Sbjct  398    EPRQVGLTESRVQVSNLLARVHYTFEIQAVNLVTELSS-EAPHFATINVSTSQS  450
+
+
+>A0A674GPE4 Collagen alpha-1(I) chain-like OS=Taeniopygia guttata OX=59729 
+PE=4 SV=1
+Length=1431
+
+ Score = 107 bits (267),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 63/168 (38%), Positives = 95/168 (57%), Gaps = 11/168 (7%)
+ Frame = +2
+
+Query  1616  TCKETFNLYYVESDSDLGWSVH----EGKHTKIDTIAADE--SFTQGDLGERKMKLNTEL  1777
+             TCKETF+++Y ESD+D   +      E  + K+DT+AA+       G  G  + ++N ++
+Sbjct  558   TCKETFSVFYHESDADTATATSPPWMENPYVKVDTVAAEHLTRRPGGGAGAPRGRVNRKV  617
+
+Query  1778  REIGHLSKRGFHLGFQDVGACVALVSVRVYYKKCLSTVQNLALFPDTVAETAFVTLVEVQ  1957
+               +G LS+ GF+L FQD+GAC+AL+SVR+++++C +    LA FP TV       +  V 
+Sbjct  618   LRLGPLSRAGFYLAFQDLGACMALLSVRLFFRRCPAATARLARFPATVPAE---LVAPVP  674
+
+Query  1958  GTCVAHAEEDVDNPPRMHCSAEGEWLVPIG-KCMCSPGFEEKDG-ACR  2095
+             G CV  A    +  P M+C  +G W  P    C+C PG E  +G  CR
+Sbjct  675   GVCVPGAVPAGEGEPLMYCREDGRWAEPPALGCVCGPGMEPGEGTGCR  722
+
+
+>A0A674GPI3 Eph LBD domain-containing protein OS=Taeniopygia guttata OX=59729 
+PE=4 SV=1
+Length=176
+
+ Score = 92.0 bits (227),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 45/69 (65%), Positives = 49/69 (71%), Gaps = 1/69 (1%)
+ Frame = +2
+
+Query  1466  IRTYQVCNVMEPNQNNWLQTGWIARRDGQRIFIELKFTLRDCNSIP-GVTSTCKETFNLY  1642
+             I  Y VCNVME  Q NWL+T WI R   QRIFIEL+FT+RDCNS P     +CKETFNLY
+Sbjct  93    IYMYSVCNVMEGEQENWLRTNWIYRGVAQRIFIELQFTVRDCNSFPMAGGGSCKETFNLY  152
+
+Query  1643  YVESDSDLG  1669
+             Y ESD D G
+Sbjct  153   YAESDVDYG  161
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 59295511695
+
+
+  Database: zebra finch proteome
+    Posted date:  Oct 24, 2022  10:12 PM
+  Number of letters in database: 9,849,742
+  Number of sequences in database:  16,489
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 12
+Window for multiple hits: 40

@@ -1268,6 +1268,11 @@ length(outliers_BC)
 #associations between PCs and outliers
 snp_pc_BH = data.frame(get.pc(outlier.object, outliers_BH))
 snp_pc_BC = data.frame(get.pc(outlier.object, outliers_BC))
+rownames(snp_pc_BC) = colnames(SNPs[,snp_pc_BC$SNP])
+
+#number of outliers associated with each PC axis
+table(snp_pc_BH$PC)
+table(snp_pc_BC$PC)
 
 pos$outlier_BH = NA
 pos$outlier_BC = NA
@@ -1575,7 +1580,10 @@ par(mfrow=c(1,1))
 env_pcs.2 = env.prin_comps.2[,1:3]
 colnames(env_pcs.2) = c("ENV_PC1", "ENV_PC2", "ENV_PC3")
 
-PROW.pc.rda.2 = rda(SNPs_c_s.2, env_pcs.2, geo_condition, scale=T) 
+single.object = data.frame(env_pcs.2, geo_condition)
+
+#PROW.pc.rda.2 = rda(SNPs_c_s.2, env_pcs.2, geo_condition, scale=TRUE) 
+PROW.pc.rda.2 = rda(formula=SNPs_c_s.2 ~ ENV_PC1 + ENV_PC2 + ENV_PC3 + Condition(long) + Condition(lat), data=single.object, scale=TRUE) 
 PROW.pc.rda.2
 
 RsquareAdj(PROW.pc.rda.2)
@@ -1585,19 +1593,21 @@ signif.full.pc.2 = anova.cca(PROW.pc.rda.2, parallel=getOption("mc.cores"))
 signif.full.pc.2
 signif.axis.pc.2 = anova.cca(PROW.pc.rda.2, by="axis", parallel=getOption("mc.cores"))
 signif.axis.pc.2
+signif.term.pc.2 = anova.cca(PROW.pc.rda.2, by="terms", parallel=getOption("mc.cores"))
+signif.term.pc.2
 vif.cca(PROW.pc.rda.2)
 
-plot(PROW.pc.rda.2, type="n", scaling=1)
+plot(PROW.pc.rda.2, type="n", scaling=1, xlab="RDA1 (37.88%)", ylab="RDA2 (31.33%)")
 points(PROW.pc.rda.2, display="species", pch=3, cex=0.05, col="gray", scaling=1)  
 points(PROW.pc.rda.2, display="sites", pch=21, cex=1.5, col="gray32", scaling=1, bg=bg[sub]) 
 text(PROW.pc.rda.2, scaling=1, display="bp", col="black", cex=1)
 
-plot(PROW.pc.rda.2, type="n", scaling=1, choices=c(1,3))
+plot(PROW.pc.rda.2, type="n", scaling=1, choices=c(1,3), xlab="RDA1 (37.88%)", ylab="RDA3 (30.79%)")
 points(PROW.pc.rda.2, display="species", pch=3, cex=0.05, col="gray", scaling=1, choices=c(1,3))  
 points(PROW.pc.rda.2, display="sites", pch=21, cex=1.5, col="gray32", scaling=1, bg=bg[sub], choices=c(1,3)) 
 text(PROW.pc.rda.2, scaling=1, display="bp", col="black", cex=1, choices=c(1,3))
 
-plot(PROW.pc.rda.2, type="n", scaling=1, choices=c(2,3))
+plot(PROW.pc.rda.2, type="n", scaling=1, choices=c(2,3), xlab="RDA2 (31.33%)", ylab="RDA3 (30.79%)")
 points(PROW.pc.rda.2, display="species", pch=3, cex=0.05, col="gray", scaling=1, choices=c(2,3))  
 points(PROW.pc.rda.2, display="sites", pch=21, cex=1.5, col="gray32", scaling=1, bg=bg[sub], choices=c(2,3)) 
 text(PROW.pc.rda.2, scaling=1, display="bp", col="black", cex=1, choices=c(2,3))
@@ -1617,7 +1627,8 @@ outliers = function(x, z) {
 cand1 = outliers(load.rda[,1],3)
 cand2 = outliers(load.rda[,2],3)
 cand3 = outliers(load.rda[,3],3)
-ncand = length(cand1) + length(cand2) + length(cand3)
+#ncand = length(cand1) + length(cand2) + length(cand3)
+ncand = length(cand1)
 ncand
 
 cand1 = cbind.data.frame(rep(1,times=length(cand1)), names(cand1), unname(cand1))
@@ -1626,7 +1637,8 @@ cand3 = cbind.data.frame(rep(3,times=length(cand3)), names(cand3), unname(cand3)
 
 colnames(cand1) <- colnames(cand2) <- colnames(cand3)<- c("axis","snp","loading")
 
-cand = rbind(cand1, cand2, cand3)
+#cand = rbind(cand1, cand2, cand3)
+cand = cand1
 cand$snp = as.character(cand$snp)
 
 foo = matrix(nrow=(ncand), ncol=3)
@@ -1647,9 +1659,9 @@ head(cand)
 
 colnames(cand) = c("RDA axis", "SNP", "Loading", colnames(env_pcs.2))
 
-cand_overlap = cand[which(cand$SNP %in% rownames(pos.outlier.BC)), "SNP"]
+cand_overlap = cand[which(cand$SNP %in% rownames(pos.outlier.BH)), "SNP"]
 cand_overlap
-cand_overlap_loadings = cand[which(cand$SNP %in% rownames(pos.outlier.BC)), "Loading"]
+cand_overlap_loadings = cand[which(cand$SNP %in% rownames(pos.outlier.BH)), "Loading"]
 cand_overlap_loadings
 
 pos$outlier_rda = NA
@@ -1738,18 +1750,19 @@ pos.outlier.overlap = data.frame(rownames(pos.outlier.overlap), pos.outlier.over
                              bam.pos.info[intersect(rownames(bam.pos.info), rownames(pos.outlier.overlap)), "chromosome"],
                              bam.pos.info[intersect(rownames(bam.pos.info), rownames(pos.outlier.overlap)), "chrom_pos"])
 colnames(pos.outlier.overlap) = c("SNP", "contig", "P", "RDA axis", "loading", "chromosome", "chrom_pos")
-top_10_BC = data.frame(top_10_BC, bam.pos.info[intersect(rownames(bam.pos.info), top_10_BC$SNP), "chromosome"],
-                       bam.pos.info[intersect(rownames(bam.pos.info), top_10_BC$SNP), "chrom_pos"])
-colnames(top_10_BC) = c("SNP", "contig", "P", "chromosome", "chrom_pos")
+top_10_BC = data.frame(top_10_BC[,1:2], bam.pos.info[intersect(rownames(bam.pos.info), top_10_BC$SNP), "chromosome"],
+                       bam.pos.info[intersect(rownames(bam.pos.info), top_10_BC$SNP), "chrom_pos"], 
+                       snp_pc_BC[top_10_BC$SNP, "PC"], top_10_BC[,3])
+colnames(top_10_BC) = c("SNP", "contig", "chromosome", "position", "PC", "P")
 top_10_BH = data.frame(top_10_BH, bam.pos.info[intersect(rownames(bam.pos.info), top_10_BH$SNP), "chromosome"],
                        bam.pos.info[intersect(rownames(bam.pos.info), top_10_BH$SNP), "chrom_pos"])
 colnames(top_10_BH) = c("SNP", "contig", "P", "chromosome", "chrom_pos")
 pos.rda.top_10 = data.frame(cand_sorted[1:10, "SNP"], 
                             bam.pos.info[intersect(rownames(bam.pos.info), cand_sorted[1:10, "SNP"]), "contig"], 
-                            cand_sorted[1:10, c("RDA axis", "Loading")],
                             bam.pos.info[intersect(rownames(bam.pos.info), cand_sorted[1:10, "SNP"]), "chromosome"],
-                            bam.pos.info[intersect(rownames(bam.pos.info), cand_sorted[1:10, "SNP"]), "chrom_pos"])
-colnames(pos.rda.top_10) = c("SNP", "contig", "RDA axis", "loading", "chromosome", "chrom_pos")
+                            bam.pos.info[intersect(rownames(bam.pos.info), cand_sorted[1:10, "SNP"]), "chrom_pos"],
+                            cand_sorted[1:10, c("RDA axis", "Loading", "ENV_PC1", "ENV_PC2", "ENV_PC3")])
+colnames(pos.rda.top_10) = c("SNP", "contig", "chromosome", "position", "RDA axis", "loading", "ENV_PC1", "ENV_PC2", "ENV_PC3")
 
 
 
@@ -1863,7 +1876,7 @@ gene_match_gene = c()
 for(i in 1:length(pos.rda.top_10$SNP)) {
   SNP = pos.rda.top_10$SNP[i]
   chrom = pos.rda.top_10$chromosome[i]
-  position = pos.rda.top_10$chrom_pos[i]
+  position = pos.rda.top_10$position[i]
   print(chrom)
   #print(position)
   for(j in rownames(gene)[which(gene$gene_chrom == chrom)]) {
@@ -1902,9 +1915,9 @@ gene_match_dist = c()
 gene_match_gene = c()
 
 for(i in 1:length(top_10_BH$SNP)) {
-  SNP = top_10_BH$SNP[i]
-  chrom = top_10_BH$chromosome[i]
-  position = top_10_BH$chrom_pos[i]
+  SNP = top_10_BC$SNP[i]
+  chrom = top_10_BC$chromosome[i]
+  position = top_10_BC$position[i]
   print(chrom)
   #print(position)
   for(j in rownames(gene)[which(gene$gene_chrom == chrom)]) {
@@ -1946,7 +1959,7 @@ for(i in 1:length(rownames(pos.outlier.overlap))) {
   #SNP = rownames(pos.outlier.overlap)[i]
   SNP = pos.outlier.overlap$SNP[i]
   chrom = pos.outlier.overlap$chromosome[i]
-  position = pos.outlier.overlap$chrom_pos[i]
+  position = pos.outlier.overlap$position[i]
   print(chrom)
   #print(position)
   for(j in rownames(gene)[which(gene$gene_chrom == chrom)]) {
@@ -2025,8 +2038,8 @@ gene_match_overlap = data.frame(gene_match_overlap, chr, start, end)
 print("writing gene match output tables...")
 
 colnames(pos.outlier.overlap) = c('SNP', 'contig', 'P', 'pRDA axis', 'loading', 'chromosome', 'position')
-colnames(top_10_BC) = c("SNP", "contig", "P", "chromosome", "position")
-colnames(pos.rda.top_10) = c("SNP", "contig", "pRDA axis", "loading", "chromosome", "position")
+colnames(top_10_BC) = c("SNP", "contig", "chromosome", "position", "PC", "P")
+colnames(pos.rda.top_10) = c("SNP", "contig", "chromosome", "position", "pRDA axis", "loading", "ENV_PC1", "ENV_PC2", "ENV_PC3")
 colnames(gene_match_rda) = c("SNP", "gene_distance", "gene", "chromosome", "start", "end")
 colnames(gene_match_pcadapt) = c("SNP", "gene_distance", "gene", "chromosome", "start", "end")
 colnames(gene_match_overlap) = c("SNP", "gene_distance", "gene", "chromosome", "start", "end")
@@ -2083,9 +2096,9 @@ for(i in BH_SNP_list) {
 }
 
 pcadapt_list_out = data.frame(BH_SNP_list, pcadapt_contig, pcadapt_chrom,
-                              pcadapt_pos, BC_list)
+                              pcadapt_pos, snp_pc_BH$PC, BC_list)
 colnames(pcadapt_list_out) = c("SNP", "contig", "chromosome", "chromosome position",
-                               "Bonferroni correction")
+                               "PC", "Bonferroni correction")
 
 write.table(rda_list_out[,1:4], "rda_list_out.txt", quote=FALSE, sep="\t", row.names=FALSE)
 write.table(pcadapt_list_out, "pcadapt_list_out.txt", quote=FALSE, sep="\t", row.names=FALSE)
@@ -2102,9 +2115,12 @@ ggplot(structure_probs,
        aes(x=K, y=`Est. Ln Prob. of Data`)) + 
   xlab("K") +
   ylab("Est. Ln Prob. of Data") + 
-  geom_point(alpha=0.5, size=4) + 
-  geom_point(shape=1, size=4) +
-  scale_x_continuous(breaks=seq(1, 13, by=1))
+  geom_jitter(alpha=0.5, size=4) + 
+  #geom_jitter(shape=1, size=4) +
+  scale_x_continuous(breaks=seq(1, 13, by=1)) +
+  theme(panel.grid.minor.x = element_line(color="black",
+                                          size=0.5,
+                                          linetype=1))
 
 
 
