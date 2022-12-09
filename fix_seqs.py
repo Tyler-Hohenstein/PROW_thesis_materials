@@ -2,7 +2,7 @@
 #Provided by Lindsay Miles, received from Matthew DeSaix (pers. communication, 2020)
 
 ### Parses raw sequence libraries for reverse-compliments of our barcoded reads, ###
-### and reverse-compliments those sequences so that they will be recognizable as 
+### and reverse-compliments those sequences so that they will be recognizable as ###
 ### barcoded reads by STACKS ver. 2.60 ###
 
 from sys import argv
