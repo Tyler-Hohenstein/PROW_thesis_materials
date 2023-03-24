@@ -21,7 +21,6 @@ def main():
   fixed_seqfile = open(argv[3], 'w')
   
 #hard code reverse compliment of ECORI
-  ### THIS IS WRONG, notify Matthew DeSaix ###
   RC_ecori = 'CAATTC'
   ecori = 'GAATTG'
 
